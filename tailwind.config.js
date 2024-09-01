@@ -12,9 +12,12 @@ module.exports = {
   theme: {
     container: {
       center: true,
-      padding: "2rem",
-      screens: {
-        "2xl": "1400px",
+      padding: {
+        DEFAULT: "1rem",
+        sm: "2rem",
+        lg: "4rem",
+        xl: "5rem",
+        "2xl": "6rem",
       },
     },
     extend: {
@@ -24,6 +27,8 @@ module.exports = {
         background_Color_1: "#FEF3EF",
         background_Color_2: "#F0F8FA",
         background_Color_3: "#FEFBEF",
+        border_Color_1: "#B9E0FF",
+        background_Color_4: "#F5FAFE",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",

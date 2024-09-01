@@ -1,40 +1,32 @@
 import Logo from "./Logo";
-import NavLinks from "./NavLinks";
-import Button from "../Button";
-import { useNavigate } from "react-router-dom";
-import SideBar from "./Mobile_Menu/Sidebar";
+import SideBar from "./Mobile_Sidebar";
+import NavigationLinks from "./NavigationLinks";
 
 export default function Header() {
-  const navigate = useNavigate();
-
-  //HANDLE CONTACT FUNCTION
-  const onHandleContactUS_Btn = () => {
-    navigate("/contact_us");
-  };
-
+  console.log(window.location.href);
   return (
     <div className="border-b shadow-lg py-3 sticky top-0 bg-white z-50">
-      <div className="flex items-center justify-between container mx-auto">
+      <div className="flex items-center justify-between max-lg:container  max-lg:mx-auto px-10">
         {/* LOGO */}
         <div>
           <Logo />
         </div>
-        {/* NAVIGATION LINKS */}
-        <div className="hidden lg:flex">
-          <NavLinks className={"flex items-center gap-14 text-base"} />
-        </div>
-        {/* CONTACT US */}
-        <div className="hidden lg:flex">
-          <Button
-            className={
-              "bg-secondaryColor text-white text-sm md:text-base  px-5 py-3 rounded-full hover:bg-secondaryColor_hover transition-all duration-200"
-            }
-            text={"Contact Us"}
-            on_Click={onHandleContactUS_Btn}
+        {/* NAVIGATION LInKS */}
+        <div className="hidden xl:flex">
+          <NavigationLinks
+            className={"flex items-center gap-14 text-base font-semibold"}
           />
         </div>
-        {/* HAMBURGER MENU*/}
-        <div className="lg:hidden">
+        <div className="hidden xl:flex">
+          <a
+            href="#"
+            className="bg-secondaryColor text-white text-sm md:text-base  px-7 py-3 rounded-full hover:bg-secondaryColor_hover transition-all duration-200"
+          >
+            Contact Us
+          </a>
+        </div>
+        {/* MOBILE SIDEBAR */}
+        <div className="xl:hidden">
           <SideBar />
         </div>
       </div>

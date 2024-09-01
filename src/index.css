@@ -65,6 +65,7 @@ body {
 @layer base {
   * {
     @apply border-border scroll-smooth transition-all duration-300;
+    font-family: "Poppins", sans-serif;
   }
   body {
     @apply bg-background text-foreground;
@@ -82,10 +83,19 @@ body {
 
 /* PARTNER IMAGERS */
 .img_partner {
-  height: 6rem;
-  width: 15rem;
+  height: 8rem;
+  width: 18rem;
   object-position: center center;
   object-fit: contain;
+}
+
+@media screen and (max-width: 768px) {
+  .img_partner {
+    height: 6rem;
+    width: 12rem;
+    object-position: center center;
+    object-fit: contain;
+  }
 }
 
 /* Customize the width of the scrollbar */
