@@ -5,7 +5,7 @@ export default function RE_ALCM_Intro() {
   return (
     <div className="space-y-8  max-md:order-2">
       <div className="space-y-3">
-        <h1 className="text-5xl font-bold">RE-ALCM</h1>
+        <h1 className="md:text-5xl text-4xl font-bold">RE-ALCM</h1>
         <p className="text-lg font-medium">
           Assets Life Cycle Management Solutions
         </p>

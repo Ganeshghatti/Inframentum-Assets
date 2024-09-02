@@ -21,6 +21,12 @@ module.exports = {
       },
     },
     extend: {
+      backgroundImage: {
+        footerImage: "url('./assets/images/footer-bg-img.png')",
+      },
+      fontFamily: {
+        footerFont: ["Plus Jakarta Sans"],
+      },
       colors: {
         secondaryColor: "#FE1D02",
         secondaryColor_hover: "#fe1b02be",
@@ -29,6 +35,7 @@ module.exports = {
         background_Color_3: "#FEFBEF",
         border_Color_1: "#B9E0FF",
         background_Color_4: "#F5FAFE",
+        background_Color_5: "#FF5C00",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",

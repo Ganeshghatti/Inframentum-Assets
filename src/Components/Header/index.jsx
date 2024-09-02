@@ -14,7 +14,7 @@ export default function Header() {
         {/* NAVIGATION LInKS */}
         <div className="hidden xl:flex">
           <NavigationLinks
-            className={"flex items-center gap-14 text-base font-semibold"}
+            className={"flex items-center gap-14 text-base font-medium"}
           />
         </div>
         <div className="hidden xl:flex">

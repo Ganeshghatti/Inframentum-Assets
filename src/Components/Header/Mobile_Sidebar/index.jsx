@@ -25,7 +25,7 @@ export default function SideBar() {
         <div className="">
           <a
             href="#"
-            className="bg-secondaryColor text-white p-7 rounded-full hover:bg-secondaryColor_hover transition-all duration-200 text-xl"
+            className="bg-secondaryColor text-white px-7 py-5 rounded-lg hover:bg-secondaryColor_hover transition-all duration-200 text-xl"
           >
             Contact Us
           </a>

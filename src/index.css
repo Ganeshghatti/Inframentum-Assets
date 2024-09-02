@@ -1,9 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-body {
-}
 
 @layer base {
   :root {
@@ -118,4 +117,34 @@ body {
 /* Customize the corner of the scrollbar */
 ::-webkit-scrollbar-corner {
   background-color: black;
+}
+
+/* Footer */
+
+.bg-image-with-overlay {
+  position: relative;
+  background-image: url("./assets/images/footer-bg-img.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 60vh;
+  width: 100%;
+}
+
+.bg-image-with-overlay::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.bg-image-with-overlay > * {
+  position: relative;
+  z-index: 2;
+  color: white;
+  text-align: center;
 }
