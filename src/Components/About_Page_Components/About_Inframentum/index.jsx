@@ -16,9 +16,8 @@ export default function AboutInframentum() {
         </p>
         <p className="">
           <span className="text-slate-950">
-            Inframentum<sup className="text-[10px] font-semibold">TM</sup>
+            Inframentum<sup className="text-[10px] font-semibold">TM</sup>{" "}
           </span>
-          {"  "}
           is a Company focused on Asset Life Cycle Management for Renewable
           Energy, Water and sustainable Infrastructure assets.
         </p>

@@ -14,7 +14,9 @@ export default function ReFinIntro() {
         <div className="pl-3 space-y-3">
           <li>
             Inframentum<sup className="text-[10px] font-semibold">TM</sup>{" "}
-            offers diverse financial services for industry growth & development.
+            offers diverse financial services for industry growth{" "}
+            <span>&amp; </span>
+            development.
           </li>
           <li>
             It supports project developers, equipment manufacturers, utility
@@ -23,7 +25,7 @@ export default function ReFinIntro() {
           <li>
             Investors also benefit from Inframentum
             <sup className="text-[10px] font-semibold">TM</sup>
-            {"'"}s services, fostering progress.
+            <span>&apos;</span>s services, fostering progress.
           </li>
         </div>
       </ul>
