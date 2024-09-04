@@ -2,7 +2,7 @@ import Our_Value_Proposition_img from "../../../assets/images/Our-Value-Proposit
 
 export default function OurValuePropositionImage() {
   return (
-    <div className="max-xl:container mx-auto max-w-2xl space-y-10">
+    <div className="max-w-xl mx-auto space-y-4">
       <div>
         <h1 className="font-semibold lg:text-[56px] md:text-5xl max-md:text-4xl  max-xl:text-center uppercase leading-loose">
           Our Value Proposition
@@ -12,7 +12,7 @@ export default function OurValuePropositionImage() {
         <img
           src={Our_Value_Proposition_img}
           alt="Our Value Proposition"
-          className="w-full h-4/6"
+          className="w-full  max-md:p-5 h-4/6 mx-auto"
         />
       </div>
     </div>

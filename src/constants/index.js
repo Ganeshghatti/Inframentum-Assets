@@ -5,9 +5,10 @@ import img_3 from "../assets/images/image-3.jpg";
 
 // PARTNERS IMAGES
 
-import billionLoans from "../assets/images/partners-1.png";
+import billionTech from "../assets/images/partners-1.png";
 import gladMinds from "../assets/images/partners-2.png";
 import ecovate from "../assets/images/partners-3.png";
+import syne from "../assets/images/partners-4.png";
 
 // TEAM IMAGES
 
@@ -38,12 +39,16 @@ const partnersImages = [
     alt: "GladMinds",
   },
   {
-    src: billionLoans,
+    src: billionTech,
     alt: "BillionLoans",
   },
   {
     src: ecovate,
     alt: "EcoVate",
+  },
+  {
+    src: syne,
+    alt: "Syne",
   },
 ];
 

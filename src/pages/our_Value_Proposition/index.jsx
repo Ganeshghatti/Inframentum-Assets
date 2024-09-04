@@ -3,7 +3,7 @@ import OurValuePropositionText from "@/Components/OurValueProposition_Page_Compo
 
 export default function OurValueProposition() {
   return (
-    <div className="grid grid-cols-1 xl:grid-cols-2 items-start bg-background_Color_4 py-20 max-xl:space-y-9">
+    <div className="grid grid-cols-1 xl:grid-cols-2 bg-background_Color_4 py-12 max-xl:space-y-5 items-end">
       <OurValuePropositionImage />
       <OurValuePropositionText />
     </div>

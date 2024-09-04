@@ -1,7 +1,7 @@
 export default function HomeIntro() {
   return (
-    <div className="col-span-1 space-y-8 lg:space-y-10  max-lg:order-2 container md:mx-auto">
-      <div className="lg:w-2/3 space-y-8 lg:space-y-10">
+    <div className="col-span-1 space-y-8 lg:space-y-10  max-lg:order-2 max-lg:container md:mx-auto lg:px-10 max-lg:py-5">
+      <div className="lg:w-full space-y-8 lg:space-y-10">
         <h1 className="text-4xl md:text-[56px] md:leading-[70px] max-lg:leading-[50px]  capitalize font-bold max-lg:pt-6">
           Streamlining Renewable Energy Solutions
         </h1>

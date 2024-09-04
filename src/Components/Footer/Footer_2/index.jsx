@@ -70,9 +70,9 @@ export default function Footer2() {
                 <input
                   type="text"
                   placeholder="Enter Email Address"
-                  className="bg-transparent placeholder:text-xs placeholder:text-slate-400 px-2 w-full placeholder:font-footerFont"
+                  className="bg-transparent placeholder:text-xs placeholder:text-slate-400 px-2 w-full placeholder:font-footerFont outline-none focus-within:shadow-2xl"
                 />
-                <button className="bg-background_Color_5 text-white text-base px-8 py-2 rounded-r-lg font-footerFont">
+                <button className="bg-secondaryColor hover:bg-secondaryColor_hover transition duration-300 hover:shadow-md text-white text-base px-8 py-2 rounded-r-lg font-footerFont">
                   Join
                 </button>
               </div>
