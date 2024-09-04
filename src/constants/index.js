@@ -153,6 +153,7 @@ const resources = [
     name: "Youtube Playlist",
   },
 ];
+
 export {
   partnersImages,
   homeSlider_Images,

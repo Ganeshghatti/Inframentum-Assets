@@ -148,3 +148,11 @@
   color: white;
   text-align: center;
 }
+
+/* SELECTION TEXT */
+
+::selection {
+  background-color: #fe1b02d7;
+  color: white;
+  transition-property: background-color, color;
+}

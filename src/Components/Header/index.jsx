@@ -3,7 +3,6 @@ import SideBar from "./Mobile_Sidebar";
 import NavigationLinks from "./NavigationLinks";
 
 export default function Header() {
-  console.log(window.location.href);
   return (
     <div className="border-b shadow-lg py-3 sticky top-0 bg-white z-50">
       <div className="flex items-center justify-between max-lg:container  max-lg:mx-auto px-10">

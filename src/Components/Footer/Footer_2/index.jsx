@@ -3,11 +3,12 @@ import logo from "../../../assets/images/logo.png";
 // SEPARATOR
 import { Separator } from "@/components/ui/separator";
 
-// SOCIAL ICONS
-import { FaTwitter, FaYoutube, FaInstagram } from "react-icons/fa";
-
 // FOOTER LINK IMPORT
 import { company, help, resources } from "@/constants";
+
+// IMPORT SOCIAL ICONS
+// SOCIAL ICONS
+import { FaTwitter, FaYoutube, FaInstagram } from "react-icons/fa";
 
 export default function Footer2() {
   return (
@@ -105,11 +106,23 @@ export default function Footer2() {
               © Copyright 2024, All Rights Reserved
             </span>
           </div>
-          <div className="flex items-center gap-5">
-            <FaTwitter size={24} />
-            <FaYoutube size={24} />
-            <FaInstagram size={24} />
-          </div>
+          <ul className="flex items-center gap-5">
+            <li>
+              <a href="#" className="group">
+                <FaTwitter size={24} className="group-hover:scale-110" />
+              </a>
+            </li>
+            <li>
+              <a href="#" className="group">
+                <FaYoutube size={24} className="group-hover:scale-110" />
+              </a>
+            </li>
+            <li>
+              <a href="#" className="group">
+                <FaInstagram size={24} className="group-hover:scale-110" />
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
     </div>
