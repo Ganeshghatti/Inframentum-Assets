@@ -13,16 +13,17 @@ export default function ReFinIntro() {
       <ul className="text-base  list-disc space-y-3">
         <div className="pl-3 space-y-3">
           <li>
-            Inframentum™ offers diverse financial services for industry growth &
-            development.
+            Inframentum<sup className="text-[10px] font-semibold">TM</sup>{" "}
+            offers diverse financial services for industry growth & development.
           </li>
           <li>
             It supports project developers, equipment manufacturers, utility
             companies alike.
           </li>
           <li>
-            Investors also benefit from Inframentum™{"'"}s services, fostering
-            progress.
+            Investors also benefit from Inframentum
+            <sup className="text-[10px] font-semibold">TM</sup>
+            {"'"}s services, fostering progress.
           </li>
         </div>
       </ul>

@@ -14,10 +14,13 @@ export default function AboutInframentum() {
           Empowering Businesses Through Flexible Ownership and Rental Solutions
           for Clean Energy Assets
         </p>
-        <p className="text-slate-600">
-          <span className="text-slate-950">Inframentum™</span> is a Company
-          focused on Asset Life Cycle Management for Renewable Energy, Water and
-          sustainable Infrastructure assets.
+        <p className="">
+          <span className="text-slate-950">
+            Inframentum<sup className="text-[10px] font-semibold">TM</sup>
+          </span>
+          {"  "}
+          is a Company focused on Asset Life Cycle Management for Renewable
+          Energy, Water and sustainable Infrastructure assets.
         </p>
       </div>
       <ul className="list-disc text-sm space-y-2 ">
