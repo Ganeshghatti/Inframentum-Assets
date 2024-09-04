@@ -1,5 +1,5 @@
-import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
+import { Button } from "@/Components/ui/button";
 
 // REACT ICONS
 import { IoMenu } from "react-icons/io5";
