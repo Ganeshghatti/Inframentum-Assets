@@ -4,14 +4,14 @@ import { BsArrowRight } from "react-icons/bs";
 
 export default function RE_ALCM_Intro() {
   return (
-    <div className="space-y-8  max-md:order-2">
+    <div className="space-y-5 md:space-y-10   max-md:order-2">
       <div className="space-y-3">
         <h1 className="md:text-5xl text-4xl font-bold">RE-ALCM</h1>
-        <p className="text-lg font-medium">
+        <p className="text-base md:text-lg font-medium">
           Assets Life Cycle Management Solutions
         </p>
       </div>
-      <ul className="text-base  list-disc space-y-3">
+      <ul className="md:text-base text-sm  list-disc space-y-3">
         <div className="pl-3 space-y-3">
           <li>
             Renewable Energy Asset Life Cycle Management Services addressing.
@@ -24,7 +24,7 @@ export default function RE_ALCM_Intro() {
         </div>
       </ul>
       <div>
-        <button className="flex items-center gap-2 bg-secondaryColor text-white px-5 py-3 rounded-full group hover:shadow-xl">
+        <button className="flex items-center gap-2 bg-secondaryColor text-white px-5 py-3 rounded-full group hover:shadow-xl text-sm md:text-base">
           <span>Learn More</span>
           <span>
             <BsArrowRight

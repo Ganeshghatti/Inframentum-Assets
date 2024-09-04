@@ -7,9 +7,9 @@ export default function OurValuePropositionText() {
   return (
     <div className="space-y-8 px-5 lg:mb-5">
       <div>
-        <h1 className="lg:text-2xl text-xl">
-          <span className="text-secondaryColor font-semibold lg:text-2xl text-xl">
-            Inframentum offers
+        <h1 className="lg:text-2xl text-base">
+          <span className="text-secondaryColor font-semibold lg:text-2xl text-base">
+            Inframentum<sup className="text-xs">TM</sup> offers
           </span>{" "}
           a unique platform for clean energy asset life cycle management,
           empowering businesses to invest in, manage, and trade renewable energy
@@ -25,7 +25,7 @@ export default function OurValuePropositionText() {
                 size={24}
               />
             </span>
-            <span className="lg:text-lg text-base">{each?.text}</span>
+            <span className="lg:text-lg text-sm">{each?.text}</span>
           </li>
         ))}
       </ul>

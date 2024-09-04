@@ -4,7 +4,7 @@ export default function OurValuePropositionImage() {
   return (
     <div className="max-w-xl mx-auto space-y-4">
       <div>
-        <h1 className="font-semibold lg:text-[56px] md:text-5xl max-md:text-4xl  max-xl:text-center uppercase leading-loose">
+        <h1 className="font-semibold lg:text-[56px] md:text-5xl max-md:text-3xl  max-xl:text-center uppercase leading-loose">
           Our Value Proposition
         </h1>
       </div>

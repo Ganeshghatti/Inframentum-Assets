@@ -4,7 +4,9 @@ export default function Our_Team() {
   return (
     <div className="container mx-auto">
       <div>
-        <h1 className="font-bold text-center text-[56px]">Our Team</h1>
+        <h1 className="font-bold text-center text-4xl md:text-[56px]">
+          Our Team
+        </h1>
       </div>
       <div className="flex max-md:flex-col items-center md:gap-10 justify-between">
         {teamImages?.map((each_Info, index) => (

@@ -5,7 +5,7 @@ export default function HomeIntro() {
         <h1 className="text-4xl md:text-[56px] md:leading-[70px] max-lg:leading-[50px]  capitalize font-bold max-lg:pt-6">
           Streamlining Renewable Energy Solutions
         </h1>
-        <p className="text-[18px] text-slate-700">
+        <p className="text-base md:text-[18px] text-slate-700">
           Empowering communities with accessible, efficient, and user-friendly
           renewable energy solutions for a sustainable and greener tomorrow.
         </p>

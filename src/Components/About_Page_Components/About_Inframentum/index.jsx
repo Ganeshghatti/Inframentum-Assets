@@ -10,11 +10,11 @@ export default function AboutInframentum() {
           <span>About </span>
           <span>INFRAMENTUM</span>
         </div>
-        <p className="text-secondaryColor font-semibold text-lg">
+        <p className="text-secondaryColor font-semibold md:text-lg text-base">
           Empowering Businesses Through Flexible Ownership and Rental Solutions
           for Clean Energy Assets
         </p>
-        <p className="">
+        <p className="text-sm md:text-base">
           <span className="text-slate-950">
             Inframentum<sup className="text-[10px] font-semibold">TM</sup>{" "}
           </span>
@@ -22,7 +22,7 @@ export default function AboutInframentum() {
           Energy, Water and sustainable Infrastructure assets.
         </p>
       </div>
-      <ul className="list-disc text-sm space-y-2 ">
+      <ul className="list-disc text-sm space-y-3">
         <span className="font-semibold text-sm">
           Experienced founders with a track record of over 100 + years covering
         </span>
@@ -36,7 +36,7 @@ export default function AboutInframentum() {
           <li>Renewable Energy Industry value chain</li>
         </div>
       </ul>
-      <button className="flex items-center gap-2 bg-black text-white px-5 py-3 rounded-full group hover:shadow-xl">
+      <button className="flex items-center gap-2 bg-black text-white px-5 py-3  rounded-full group hover:shadow-xl max-md:text-sm">
         <span>Learn More</span>
         <span>
           <BsArrowRight
