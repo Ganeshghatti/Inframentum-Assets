@@ -1,5 +1,4 @@
 import { Separator } from "@/components/ui/separator";
-import { Button } from "@/Components/ui/button";
 
 // REACT ICONS
 import { IoMenu } from "react-icons/io5";
@@ -11,9 +10,9 @@ export default function SideBar() {
   return (
     <Sheet>
       <SheetTrigger asChild>
-        <Button className="bg-transparent text-slate-950 hover:bg-transparent">
+        <button className="bg-transparent text-slate-950 hover:bg-transparent">
           <IoMenu size={32} />
-        </Button>
+        </button>
       </SheetTrigger>
       <SheetContent className="flex flex-col justify-center items-center space-y-8">
         <div className="py-10">
