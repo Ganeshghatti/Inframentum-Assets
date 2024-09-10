@@ -8,7 +8,9 @@ export default function AboutInframentum() {
       <div className="space-y-8">
         <div className="lg:text-[56px] text-3xl  font-semibold max-xl:hidden">
           <span>About </span>
-          <span>INFRAMENTUM</span>
+          <span>
+            INFRAMENTUM<sup>&#8482;</sup>
+          </span>
         </div>
         <p className="text-secondaryColor font-semibold md:text-lg text-base">
           Empowering Businesses Through Flexible Ownership and Rental Solutions

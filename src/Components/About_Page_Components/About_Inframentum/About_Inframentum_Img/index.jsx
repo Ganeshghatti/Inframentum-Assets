@@ -4,7 +4,7 @@ export default function About_Inframentum_Img() {
   return (
     <div className="max-xl:order-1 space-y-8">
       <h1 className="md:text-[56px] text-3xl  font-semibold xl:hidden max-md:text-center">
-        About INFRAMENTUM
+        About INFRAMENTUM<sup>&#8482;</sup>
       </h1>
       <img
         src={about_Inframentum_img}
