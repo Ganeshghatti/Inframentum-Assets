@@ -84,8 +84,8 @@ const teamImages = [
   },
   {
     src: team_2,
-    alt: "Thirumalai Velu",
-    name: "Thirumalai Velu",
+    alt: "Ananth lyer",
+    name: "Ananth lyer",
     designation: "Co-Founder and Director",
   },
   {
