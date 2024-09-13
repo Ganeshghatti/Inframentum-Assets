@@ -156,3 +156,32 @@
   color: white;
   transition-property: background-color, color;
 }
+
+/* CONTACT FOIRM BG */
+
+.bg-image-with-overlay-Contact {
+  position: relative;
+  background-image: url("./assets/images/footer-bg-img.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 80vh;
+  width: 100%;
+}
+
+.bg-image-with-overlay-Contact::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.bg-image-with-overlay-Contact > * {
+  position: relative;
+  z-index: 2;
+  color: black;
+}

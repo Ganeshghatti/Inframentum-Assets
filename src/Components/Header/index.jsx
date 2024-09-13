@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Logo from "./Logo";
 import SideBar from "./Mobile_Sidebar";
 import NavigationLinks from "./NavigationLinks";
@@ -17,12 +18,12 @@ export default function Header() {
           />
         </div>
         <div className="hidden xl:flex">
-          <a
-            href="#"
+          <Link
+            to={"/contact"}
             className="bg-secondaryColor text-white text-sm md:text-base  px-7 py-3 rounded-full hover:bg-secondaryColor_hover transition-all duration-200"
           >
             Contact Us
-          </a>
+          </Link>
         </div>
         {/* MOBILE SIDEBAR */}
         <div className="xl:hidden">

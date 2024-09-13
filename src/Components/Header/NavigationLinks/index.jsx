@@ -1,12 +1,24 @@
 /* eslint-disable react/prop-types */
 import { navLinks } from "@/utils/navlinks";
+import { useLocation } from "react-router-dom";
 
-export default function NavigationLinks({ className }) {
+export default function NavigationLinks({ className, setOpen }) {
+  const { pathname } = useLocation();
+
+  const onHandle_MobileSideBar = () => {
+    setOpen((prev) => !prev);
+  };
+
   return (
     <ul className={className}>
       {navLinks?.map((eachLink, index) => (
         <li key={index}>
-          <a href={eachLink?.path}>{eachLink?.pathName}</a>
+          <a
+            href={pathname === "/contact" ? "/" : eachLink?.path}
+            onClick={onHandle_MobileSideBar}
+          >
+            {eachLink?.pathName}
+          </a>
         </li>
       ))}
     </ul>

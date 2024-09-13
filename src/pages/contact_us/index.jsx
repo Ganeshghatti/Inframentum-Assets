@@ -1,7 +1,9 @@
+import ContactForm from "@/Components/Contact_Form";
+
 export default function ContactUS() {
   return (
-    <div>
-      <h1>Contact US</h1>
+    <div className="flex flex-col items-center justify-center h-[95svh] bg-image-with-overlay-Contact scroll-mt-0">
+      <ContactForm />
     </div>
   );
 }
