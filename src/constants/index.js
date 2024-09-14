@@ -5,8 +5,8 @@ import img_3 from "../assets/images/image-3.jpg";
 
 // PARTNERS IMAGES
 
-import billionTech from "../assets/images/partners-1.png";
-import gladMinds from "../assets/images/partners-2.png";
+import billionTech from "../assets/images/partners-2.png";
+import gladMinds from "../assets/images/partners-1.png";
 import ecovate from "../assets/images/partners-3.png";
 import syne from "../assets/images/partners-4.png";
 
@@ -35,20 +35,24 @@ const homeSlider_Images = [
 // PARTNERS
 const partnersImages = [
   {
-    src: gladMinds,
-    alt: "GladMinds",
+    src: billionTech,
+    alt: "BillionTech",
+    link: "https://billiontech.in/",
   },
   {
-    src: billionTech,
-    alt: "BillionLoans",
+    src: gladMinds,
+    alt: "GladMinds",
+    link: "https://gladminds.co/",
   },
   {
     src: ecovate,
     alt: "EcoVate",
+    link: "https://ecovatetech.com/",
   },
   {
     src: syne,
     alt: "Syne",
+    link: "https://www.syne.com/",
   },
 ];
 
