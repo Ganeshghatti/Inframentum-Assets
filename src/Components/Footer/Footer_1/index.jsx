@@ -7,7 +7,7 @@ export default function Footer1() {
         </h1>
       </div>
       <div>
-        <button className="bg-secondaryColor hover:bg-secondaryColor_hover transition duration-300 hover:shadow-md px-6 py-3 rounded-full text-white max-md:text-sm">
+        <button className="bg-secondaryColor hover:bg-secondaryColor_hover transition-all duration-300 ease-linear hover:shadow-md px-6 py-3 rounded-full text-white max-md:text-sm">
           Let<span>&apos;</span>s get started
         </button>
       </div>
