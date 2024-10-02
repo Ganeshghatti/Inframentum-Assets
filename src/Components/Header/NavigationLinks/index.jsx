@@ -14,7 +14,11 @@ export default function NavigationLinks({ className, setOpen }) {
       {navLinks?.map((eachLink, index) => (
         <li key={index}>
           <a
-            href={pathname === "/contact" ? "/" : eachLink?.path}
+            href={
+              pathname === "/contact" || pathname === "/privacy-policy"
+                ? "/"
+                : eachLink?.path
+            }
             onClick={onHandle_MobileSideBar}
           >
             {eachLink?.pathName}

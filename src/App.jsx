@@ -12,6 +12,7 @@ import OurValueProposition from "./pages/our_Value_Proposition";
 import OurTeam from "./pages/ourTeam";
 import ContactUS from "./pages/contact_us";
 import Layout from "./Layout";
+import Privacy_Policy from "./Components/privacy-policy";
 
 export default function App() {
   const router = createBrowserRouter([
@@ -39,6 +40,10 @@ export default function App() {
         {
           path: "/contact",
           element: <ContactUS />,
+        },
+        {
+          path: "/privacy-policy",
+          element: <Privacy_Policy />,
         },
       ],
     },

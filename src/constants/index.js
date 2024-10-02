@@ -122,19 +122,19 @@ const company = [
 
 const help = [
   {
-    href: "#",
+    href: "/",
     name: "Customer Support",
   },
   {
-    href: "#",
+    href: "/",
     name: "Delivery Details",
   },
   {
-    href: "#",
+    href: "/",
     name: "Terms & Conditions",
   },
   {
-    href: "#",
+    href: "/privacy-policy",
     name: "Privacy Policy",
   },
 ];
