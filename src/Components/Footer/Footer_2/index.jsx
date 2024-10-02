@@ -17,9 +17,9 @@ export default function Footer2() {
         <div>
           <img src={logo} alt="Logo" className="w-44" />
         </div>
-        <div className="grid md:grid-cols-3 lg:grid-cols-5">
+        <div className="grid md:grid-cols-3 lg:grid-cols-3 gap-6">
           {/* COMPANY */}
-          <div className="col-span-1  space-y-4">
+          <div className="md:col-span-1 col-span-3  space-y-4 ">
             <h1 className="font-bold text-sm uppercase font-footerFont">
               Company
             </h1>
@@ -49,7 +49,7 @@ export default function Footer2() {
             </ul>
           </div>
           {/* RESOURCE */}
-          <div className="col-span-1  space-y-4 max-md:pt-12">
+          <div className="col-span-1  space-y-4 ">
             <h1 className="font-bold text-sm uppercase">Resources</h1>
             <ul className="space-y-2">
               {resources?.map((eachLink, index) => (
@@ -62,7 +62,7 @@ export default function Footer2() {
             </ul>
           </div>
           {/* NEWS LETTER */}
-          <div className="col-span-2  space-y-4 max-lg:pt-12">
+          <div className="col-span-2  space-y-4 max-lg:pt-12 hidden">
             <h1 className="font-bold text-sm uppercase font-footerFont">
               Subscribe to newsletter
             </h1>
