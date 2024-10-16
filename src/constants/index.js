@@ -158,6 +158,25 @@ const resources = [
   },
 ];
 
+const form_Drop_Options = [
+  { opt: "Consumer", opt_value: "consumer" },
+  { opt: "Financier", opt_value: "financier" },
+  { opt: "Investor", opt_value: "investor" },
+  { opt: "Landowner", opt_value: "landowner" },
+  { opt: "Supplier (Panels)", opt_value: "supplier_panels" },
+  { opt: "Supplier (EPC Services)", opt_value: "supplier_epc" },
+  { opt: "Supplier (Inverters)", opt_value: "supplier_inverters" },
+  { opt: "Supplier (Others)", opt_value: "supplier_others" },
+  { opt: "Manufacturer", opt_value: "manufacturer" },
+  { opt: "Space Owner", opt_value: "space_owner" },
+  { opt: "Warehousing", opt_value: "warehousing" },
+  { opt: "Quarry Business", opt_value: "quarry_business" },
+  { opt: "Data Centre", opt_value: "data_centre" },
+  { opt: "Agri Business", opt_value: "agri_business" },
+  { opt: "Cold Storage", opt_value: "cold_storage" },
+  { opt: "Others", opt_value: "others" },
+];
+
 export {
   partnersImages,
   homeSlider_Images,
@@ -166,4 +185,5 @@ export {
   company,
   help,
   resources,
+  form_Drop_Options,
 };

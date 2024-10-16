@@ -22,13 +22,15 @@ import { Checkbox } from "../ui/checkbox";
 import { IoIosSend } from "react-icons/io";
 import { FaUserAlt, FaPhone } from "react-icons/fa";
 import { MdEmail, MdMessage } from "react-icons/md";
-import { FaBuilding, FaPeopleGroup, FaBuildingUser } from "react-icons/fa6";
+import { FaBuilding, FaBuildingUser } from "react-icons/fa6";
+import { ImProfile } from "react-icons/im";
 
 // REACT EMAIL JS
 import emailjs from "@emailjs/browser";
 import { toast } from "react-toastify";
 import { useNavigate } from "react-router-dom";
 import { useState } from "react";
+import { form_Drop_Options } from "@/constants";
 
 const formSchema = z.object({
   username: z
@@ -46,7 +48,7 @@ const formSchema = z.object({
     .refine((val) => !val.includes("spam"), {
       message: "Email must not contain 'spam'",
     }),
-  message: z
+  requirement: z
     .string()
     .min(10, { message: "Message must have at least 10 Characters" })
     .max(10000),
@@ -61,13 +63,14 @@ const formSchema = z.object({
     .string()
     .min(3, { message: "Company Name must have at least 3 characters" })
     .max(50),
-  companySize: z.coerce
-    .number()
-    .min(1, { message: "Company Size must be at least 1" }),
+  // companySize: z.coerce
+  //   .number()
+  //   .min(1, { message: "Company Size must be at least 1" }),
   designation: z
     .string()
     .min(2, { message: "Designation must have at least 2 characters" })
     .max(50),
+  profile: z.string().nonempty("Profile is required"),
 });
 
 export default function ContactForm() {
@@ -81,16 +84,17 @@ export default function ContactForm() {
     defaultValues: {
       username: "",
       email: "",
-      message: "",
+      requirement: "",
       mobileNumber: "",
       companyName: "",
-      companySize: "",
       designation: "",
+      profile: "Consumer",
     },
   });
 
   // 2. Define a submit handler.
   function onSubmit(values) {
+    console.log(values);
     setLoading(false);
     if (check) {
       emailjs
@@ -103,7 +107,7 @@ export default function ContactForm() {
         .then(
           () => {
             setLoading(true);
-            toast.success("Message success Sent !");
+            toast.success("Requirement Successfully  Sent !");
             form.reset();
             setCheck(null);
             navigation("/");
@@ -148,7 +152,7 @@ export default function ContactForm() {
                   <span className="">
                     <FaUserAlt size={20} />
                   </span>
-                  <span>Your Name</span>
+                  <span>Name</span>
                 </FormLabel>
                 <FormControl>
                   <Input
@@ -176,7 +180,7 @@ export default function ContactForm() {
                     <span>
                       <FaBuildingUser size={20} />
                     </span>
-                    <span>Your Designation</span>
+                    <span>Designation</span>
                   </FormLabel>
                   <FormControl>
                     <Input
@@ -193,6 +197,73 @@ export default function ContactForm() {
                 </FormItem>
               )}
             />
+            {/* COMPANY NAME */}
+            <FormField
+              control={form.control}
+              name="companyName"
+              render={({ field }) => (
+                <FormItem className="w-full">
+                  <FormLabel className="text-slate-950 flex items-center gap-2 ml-2">
+                    <span>
+                      <FaBuilding size={20} />
+                    </span>
+                    <span>Company Name</span>
+                  </FormLabel>
+                  <FormControl>
+                    <Input
+                      type="text"
+                      placeholder="Please Enter Your Mobile Number . . ."
+                      {...field}
+                      className="text-slate-950 w-full placeholder:text-xs"
+                    />
+                  </FormControl>
+                  <FormDescription className="hidden">
+                    This is your public display name.
+                  </FormDescription>
+                  <FormMessage className="text-xs" />
+                </FormItem>
+              )}
+            />
+          </div>
+
+          <div>
+            <FormField
+              control={form.control}
+              name="profile"
+              render={({ field }) => (
+                <FormItem className="w-full">
+                  <FormLabel className="text-slate-950 flex items-center gap-2 ml-2">
+                    <span>
+                      <ImProfile size={20} />
+                    </span>
+                    <span>Profile</span>
+                  </FormLabel>
+                  <FormControl>
+                    <select
+                      {...field}
+                      className="text-slate-950 w-full placeholder:text-xs border p-2 rounded-md text-sm font-semibold"
+                    >
+                      <option value="" disabled className="text-sm">
+                        Select your profile
+                      </option>
+                      {form_Drop_Options.map((each_form, index) => (
+                        <option
+                          key={index}
+                          value={each_form?.opt_value}
+                          className="text-sm"
+                        >
+                          {each_form?.opt}
+                        </option>
+                      ))}
+                    </select>
+                  </FormControl>
+                  <FormMessage className="text-xs" />
+                </FormItem>
+              )}
+            />
+          </div>
+
+          <div className="flex max-md:flex-col items-center justify-between w-full gap-4 max-md:space-y-2">
             {/* USER MOBILE */}
             <FormField
               control={form.control}
@@ -203,7 +274,7 @@ export default function ContactForm() {
                     <span>
                       <FaPhone size={20} className="rotate-90" />
                     </span>
-                    <span>Your Mobile Number</span>
+                    <span>Mobile Number</span>
                   </FormLabel>
                   <FormControl>
                     <Input
@@ -230,7 +301,7 @@ export default function ContactForm() {
                     <span>
                       <MdEmail size={20} />
                     </span>
-                    <span>Your Email</span>
+                    <span>Email ID</span>
                   </FormLabel>
                   <FormControl>
                     <Input
@@ -247,37 +318,7 @@ export default function ContactForm() {
                 </FormItem>
               )}
             />
-          </div>
-
-          <div className="flex max-md:flex-col items-center justify-between w-full gap-4 max-md:space-y-2">
-            {/* COMPANY NAME */}
-            <FormField
-              control={form.control}
-              name="companyName"
-              render={({ field }) => (
-                <FormItem className="w-full">
-                  <FormLabel className="text-slate-950 flex items-center gap-2 ml-2">
-                    <span>
-                      <FaBuilding size={20} />
-                    </span>
-                    <span>Your Company Name</span>
-                  </FormLabel>
-                  <FormControl>
-                    <Input
-                      type="text"
-                      placeholder="Please Enter Your Mobile Number . . ."
-                      {...field}
-                      className="text-slate-950 w-full placeholder:text-xs"
-                    />
-                  </FormControl>
-                  <FormDescription className="hidden">
-                    This is your public display name.
-                  </FormDescription>
-                  <FormMessage className="text-xs" />
-                </FormItem>
-              )}
-            />
-            {/* COMPANY SIZE*/}
+            {/* COMPANY SIZE
             <FormField
               control={form.control}
               name="companySize"
@@ -303,19 +344,19 @@ export default function ContactForm() {
                   <FormMessage className="text-xs" />
                 </FormItem>
               )}
-            />
+            /> */}
           </div>
           {/* USER MESSAGE */}
           <FormField
             control={form.control}
-            name="message"
+            name="requirement"
             render={({ field }) => (
               <FormItem>
                 <FormLabel className="text-slate-950 flex items-center gap-2 ml-2">
                   <span>
                     <MdMessage size={20} />
                   </span>
-                  <span>Your Message</span>
+                  <span>Requirement</span>
                 </FormLabel>
                 <FormControl>
                   <Textarea
