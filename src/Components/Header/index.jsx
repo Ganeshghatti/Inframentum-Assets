@@ -5,7 +5,7 @@ import NavigationLinks from "./NavigationLinks";
 
 export default function Header() {
   return (
-    <div className="border-b shadow-lg py-3 sticky top-0 bg-white z-50">
+    <div className="border-b shadow-lg py-3 sticky top-0 bg-white z-[9999]">
       <div className="flex items-center justify-between max-lg:container  max-lg:mx-auto px-10">
         {/* LOGO */}
         <div>

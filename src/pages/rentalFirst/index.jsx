@@ -5,7 +5,7 @@ export default function RentalFirst() {
   return (
     <section
       id="i-rentalfirst"
-      className="container mx-auto border bg-background_Color_2 flex flex-col md:flex-row items-center justify-around gap-10 md:gap-5 p-8 rounded-3xl scroll-mt-36"
+      className="container mx-auto  bg-background_Color_2 flex flex-col md:flex-row items-center justify-around gap-10 md:gap-5 p-8 rounded-3xl scroll-mt-36"
     >
       <Rental_First_Image />
       <Rental_First_Intro />

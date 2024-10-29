@@ -4,10 +4,10 @@ import { Link } from "react-router-dom";
 
 export default function Partners_Images() {
   return (
-    <div className="bg-background_Color_4 border border-border_Color_1 rounded-xl lg:py-12">
+    <div className="bg-bgShade border border-secondaryColor rounded-xl lg:py-12">
       <div className="flex flex-col md:flex-row flex-wrap gap-5 items-center justify-around p-5">
         {partnersImages?.map((eachImage, index) => (
-          <Link key={index} to={eachImage?.link} target="_blank">
+          <Link key={index} to={eachImage?.link} target="_parent">
             <img
               src={eachImage?.src}
               alt={eachImage?.alt}

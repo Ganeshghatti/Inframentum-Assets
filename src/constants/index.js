@@ -35,24 +35,24 @@ const homeSlider_Images = [
 // PARTNERS
 const partnersImages = [
   {
+    src: syne,
+    alt: "Syne",
+    link: "/our-partners",
+  },
+  {
     src: billionTech,
     alt: "BillionTech",
-    link: "https://billiontech.in/",
+    link: "/our-partners",
   },
   {
     src: gladMinds,
     alt: "GladMinds",
-    link: "https://gladminds.co/",
+    link: "/our-partners",
   },
   {
     src: ecovate,
     alt: "EcoVate",
-    link: "https://ecovatetech.com/",
-  },
-  {
-    src: syne,
-    alt: "Syne",
-    link: "https://www.syne.com/",
+    link: "/our-partners",
   },
 ];
 
@@ -87,13 +87,13 @@ const teamImages = [
     designation: "Founder and CEO",
   },
   {
-    src: team_2,
+    src: team_3,
     alt: "Ananth lyer",
     name: "Ananth lyer",
     designation: "Co-Founder and Director",
   },
   {
-    src: team_3,
+    src: team_2,
     alt: "Tirumalai Velu",
     name: "Tirumalai Velu",
     designation: "Co-Founder and Director",

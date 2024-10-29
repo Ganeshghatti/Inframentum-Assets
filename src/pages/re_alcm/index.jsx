@@ -5,7 +5,7 @@ export default function Re_Alcm() {
   return (
     <section
       id="i-re-alcm"
-      className=" container mx-auto border bg-background_Color_1 flex flex-col  scroll-mt-36 md:flex-row items-center justify-around gap-10 md:gap-5 p-8 rounded-3xl"
+      className=" container mx-auto  bg-bgShade flex flex-col  scroll-mt-36 md:flex-row items-center justify-around gap-10 md:gap-5 p-8 rounded-3xl"
     >
       <RE_ALCM_Intro />
       <RE_ALCM_Image />

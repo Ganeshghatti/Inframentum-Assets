@@ -6,7 +6,7 @@ export default function AboutInframentum() {
   return (
     <div className="lg:px-5 space-y-8 max-xl:order-2 lg:max-w-2xl">
       <div className="space-y-8">
-        <div className="lg:text-[56px] text-3xl  font-semibold max-xl:hidden">
+        <div className="lg:text-[40px] text-3xl  font-semibold max-xl:hidden">
           <span>About </span>
           <span>
             INFRAMENTUM<sup>&#8482;</sup>
@@ -38,7 +38,7 @@ export default function AboutInframentum() {
           <li>Renewable Energy Industry value chain</li>
         </div>
       </ul>
-      <button className="flex items-center gap-2 bg-black text-white px-5 py-3  rounded-full group hover:shadow-xl max-md:text-sm">
+      <button className="flex items-center gap-2 bg-secondaryColor hover:bg-secondaryColor_hover text-white px-5 py-3  rounded-full group hover:shadow-xl max-md:text-sm">
         <span>Learn More</span>
         <span>
           <BsArrowRight

@@ -8,7 +8,7 @@ export default function Our_Team() {
           Our Team
         </h1>
       </div>
-      <div className="flex max-md:flex-col items-center md:gap-10 justify-between">
+      <div className="flex max-md:flex-col items-center md:gap-10 justify-between space-y-8">
         {teamImages?.map((each_Info, index) => (
           <div
             key={index}
@@ -18,7 +18,7 @@ export default function Our_Team() {
               <img src={each_Info?.src} alt={each_Info?.alt} />
             </div>
             <div>
-              <span>{each_Info?.name}</span>
+              <span className="font-semibold">{each_Info?.name}</span>
             </div>
             <div>
               <span>{each_Info?.designation}</span>

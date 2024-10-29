@@ -13,6 +13,9 @@ import OurTeam from "./pages/ourTeam";
 import ContactUS from "./pages/contact_us";
 import Layout from "./Layout";
 import Privacy_Policy from "./Components/privacy-policy";
+import OurFuturePlan from "./pages/ourFuture_Plan";
+import OurPartners_Components from "./Components/OurPartners_Components";
+
 
 export default function App() {
   const router = createBrowserRouter([
@@ -33,6 +36,7 @@ export default function App() {
               <RentalFirst />
               <ReFin />
               <OurValueProposition />
+              <OurFuturePlan />
               <OurTeam />
             </main>
           ),
@@ -44,6 +48,10 @@ export default function App() {
         {
           path: "/privacy-policy",
           element: <Privacy_Policy />,
+        },
+        {
+          path: "/our-partners",
+          element: <OurPartners_Components />,
         },
       ],
     },

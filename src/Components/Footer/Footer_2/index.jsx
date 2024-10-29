@@ -12,7 +12,7 @@ import { FaTwitter, FaYoutube, FaInstagram } from "react-icons/fa";
 
 export default function Footer2() {
   return (
-    <div className="bg-background_Color_1 py-10">
+    <div className="bg-bgShade py-10">
       <div className="space-y-12 max-w-screen-2xl mx-auto max-2xl:px-10">
         <div>
           <img src={logo} alt="Logo" className="w-44" />

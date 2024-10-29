@@ -28,8 +28,10 @@ module.exports = {
         footerFont: ["Plus Jakarta Sans"],
       },
       colors: {
-        secondaryColor: "#FE1D02",
-        secondaryColor_hover: "#fe1b02be",
+        bgShade: "#F9FFF3",
+        darkBg: "#1A3500",
+        secondaryColor: "#5FBF00",
+        secondaryColor_hover: "#5FBF20",
         background_Color_1: "#FEF3EF",
         background_Color_2: "#F0F8FA",
         background_Color_3: "#FEFBEF",

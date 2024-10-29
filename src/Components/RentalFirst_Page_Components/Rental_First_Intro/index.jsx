@@ -5,9 +5,9 @@ export default function Rental_First_Intro() {
   return (
     <div className="space-y-5 md:space-y-10 px-5">
       <div className="space-y-3">
-        <h1 className="md:text-5xl text-4xl font-bold">RENTAL FIRST</h1>
-        <p className="text-base md:text-lg font-medium">
-          Equipment Rental Solutions
+        <h1 className="md:text-5xl text-4xl font-bold">I-RENTAL FIRST</h1>
+        <p className="text-sm md:text-lg font-medium bg-secondaryColor px-5 max-md:py-2 rounded-full">
+          Flexible Rental Solutions for Sustainable Green Assets
         </p>
       </div>
       <ul className="md:text-base text-sm  list-disc space-y-3">
