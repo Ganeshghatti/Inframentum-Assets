@@ -25,7 +25,7 @@ module.exports = {
         footerImage: "url('./assets/images/footer-bg-img.png')",
       },
       fontFamily: {
-        footerFont: ["Plus Jakarta Sans"],
+        footerFont: ["Sora", "sans-serif"],
       },
       colors: {
         bgShade: "#F9FFF3",
