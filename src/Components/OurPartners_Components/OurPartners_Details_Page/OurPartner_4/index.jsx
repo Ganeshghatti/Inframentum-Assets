@@ -1,23 +1,32 @@
 import { Button } from "@/Components/ui/button";
-import p_logo_1 from "../../../../assets/images/p_logo_1.png";
+import p_logo_1 from "../../../../assets/images/partners-2.png";
 
 // REACT ICON
 import { FaArrowRightLong } from "react-icons/fa6";
 
-export default function OurPartner_1() {
+export default function OurPartner_4() {
   return (
     <div className="bg-darkBg text-white rounded-3xl px-1 md:px-10 py-5 md:py-10 flex max-md:flex-col flex-row items-center justify-between">
+      <div className="md:w-[30%] max-md:order-1">
+        <img
+          src={p_logo_1}
+          alt="p_logo_1"
+          className="max-md:w-[150px] max-md:h-[150px] md:w-[250px] md:h-[250px] object-contain 2xl:mr-48"
+        />
+      </div>
       <div className="space-y-10  md:w-[70%] px-4">
         <div>
-          <h1 className="text-3xl font-semibold">SYNE</h1>
+          <h1 className="text-3xl font-semibold">BillionTech</h1>
         </div>
         <div>
           <p className="max-md:text-sm">
-            SYNE is an enterprise SaaS platform enabling a structured approach
-            to science-based, data-driven emissions measurement using the GHG
-            Protocol and Climate Taxonomy. Powered by artificial intelligence,
-            SYNE optimization, comprehensive ESG assessments through SMART
-            Framework, and benchmarking with the SYNE Index.
+            BillionTech offers a platform for cooperates to digitize
+            transactions, manage trade interactions, and optimize cash
+            management, with embedded payment, collection, and credit solutions
+            across the supply chain. Partnering with Inframentum<sup>TM</sup>,
+            it provides tools for dealer/vendor management, cash management,
+            credit solutions, and sales visibility, integrating seamlessly with
+            banks and financial institutions.
           </p>
         </div>
         <div>
@@ -31,13 +40,6 @@ export default function OurPartner_1() {
             </span>
           </Button>
         </div>
-      </div>
-      <div className="md:w-[30%] max-md:order-1">
-        <img
-          src={p_logo_1}
-          alt="p_logo_1"
-          className="max-md:w-[150px] max-md:h-[150px] md:w-[250px] md:h-[250px] object-contain 2xl:ml-48"
-        />
       </div>
     </div>
   );

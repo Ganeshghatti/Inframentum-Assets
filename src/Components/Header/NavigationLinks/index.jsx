@@ -15,7 +15,10 @@ export default function NavigationLinks({ className, setOpen }) {
         <li key={index}>
           <a
             href={
-              pathname === "/contact" || pathname === "/privacy-policy" || pathname === "/our-partners"
+              pathname === "/contact" ||
+              pathname === "/privacy-policy" ||
+              pathname === "/our-partners" ||
+              pathname === "/about-us"
                 ? "/"
                 : eachLink?.path
             }

@@ -1,23 +1,28 @@
 import { Button } from "@/Components/ui/button";
-import p_logo_1 from "../../../../assets/images/p_logo_1.png";
+import p_logo_1 from "../../../../assets/images/partners-1.png";
 
 // REACT ICON
 import { FaArrowRightLong } from "react-icons/fa6";
 
-export default function OurPartner_1() {
+export default function OurPartner_3() {
   return (
     <div className="bg-darkBg text-white rounded-3xl px-1 md:px-10 py-5 md:py-10 flex max-md:flex-col flex-row items-center justify-between">
       <div className="space-y-10  md:w-[70%] px-4">
         <div>
-          <h1 className="text-3xl font-semibold">SYNE</h1>
+          <h1 className="text-3xl font-semibold">GladMinds</h1>
         </div>
         <div>
           <p className="max-md:text-sm">
-            SYNE is an enterprise SaaS platform enabling a structured approach
-            to science-based, data-driven emissions measurement using the GHG
-            Protocol and Climate Taxonomy. Powered by artificial intelligence,
-            SYNE optimization, comprehensive ESG assessments through SMART
-            Framework, and benchmarking with the SYNE Index.
+            GladMinds Solutions Pvt Ltd is a A fast-rising 5-year SaaS company
+            dominating the aftermarket space by empowering leading brands to
+            achieve operational supremacy and customer loyalty through our
+            industry-leading integrated platform. Inframentum<sup>TM</sup>{" "}
+            Assets and GladMinds have entered into a MOU to support each other
+            <span>&apos;</span>s customers in their respective services. For the
+            clients of Inframentum<sup>TM</sup>, GladMinds is the partner
+            platform through which the I-RentalFirst clients are proposed to be
+            served to address all of their requirements in relation to Equipment
+            Rental solutions and IoT supported asset management solutions
           </p>
         </div>
         <div>

@@ -1,6 +1,7 @@
 // REACT ICONS
 
 import { BsArrowRight } from "react-icons/bs";
+import { Link } from "react-router-dom";
 
 export default function AboutInframentum() {
   return (
@@ -38,7 +39,10 @@ export default function AboutInframentum() {
           <li>Renewable Energy Industry value chain</li>
         </div>
       </ul>
-      <button className="flex items-center gap-2 bg-secondaryColor hover:bg-secondaryColor_hover text-white px-5 py-3  rounded-full group hover:shadow-xl max-md:text-sm">
+      <Link
+        to="/about-us"
+        className="w-fit flex items-center gap-2 bg-secondaryColor hover:bg-secondaryColor_hover text-white px-5 py-3  rounded-full group hover:shadow-xl max-md:text-sm"
+      >
         <span>Learn More</span>
         <span>
           <BsArrowRight
@@ -46,7 +50,7 @@ export default function AboutInframentum() {
             className="group-hover:translate-x-2 transition duration-300"
           />
         </span>
-      </button>
+      </Link>
     </div>
   );
 }

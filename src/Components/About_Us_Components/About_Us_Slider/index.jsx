@@ -15,7 +15,7 @@ import { Button } from "@/Components/ui/button";
 // React Icons
 import { FaArrowRightLong } from "react-icons/fa6";
 
-export default function OurPartners_Slides() {
+export default function About_Us_Slides() {
   return (
     <div className="relative">
       <Swiper
@@ -42,15 +42,16 @@ export default function OurPartners_Slides() {
       </Swiper>
       <div className="absolute top-0 left-0 w-full h-full bg-black opacity-40 z-40"></div>
 
-      <div className="absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] z-50 flex flex-col items-center justify-center max-lg:gap-2 gap-4 max-lg:w-full">
+      <div className="absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] z-50 flex flex-col items-center justify-center max-lg:gap-3 gap-4 max-lg:w-[95%] lg:space-y-8">
         <div className="w-full h-full">
-          <h1 className="text-3xl text-white md:text-6xl capitalize font-semibold text-center">
-            Our Partners
+          <h1 className="text-xl text-white md:text-6xl capitalize font-semibold text-center">
+            Streamlining Renewable Energy Solutions
           </h1>
         </div>
         <div className="max-sm:hidden">
-          <p className="text-white font-semibold text-sm text-center">
-            Partnered with like-minded companies
+          <p className="text-white font-semibold text-sm text-center max-md:text-xs mx-auto">
+            Empowering communities with accessible, efficient, and user-friendly
+            renewable energy solutions for a sustainable and greener tomorrow.
           </p>
         </div>
         <div>

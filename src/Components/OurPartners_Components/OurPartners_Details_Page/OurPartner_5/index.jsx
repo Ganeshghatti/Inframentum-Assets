@@ -1,23 +1,26 @@
 import { Button } from "@/Components/ui/button";
-import p_logo_1 from "../../../../assets/images/p_logo_1.png";
+import p_logo_1 from "../../../../assets/images/evoPartner.png";
 
 // REACT ICON
 import { FaArrowRightLong } from "react-icons/fa6";
 
-export default function OurPartner_1() {
+export default function OurPartner_5() {
   return (
     <div className="bg-darkBg text-white rounded-3xl px-1 md:px-10 py-5 md:py-10 flex max-md:flex-col flex-row items-center justify-between">
       <div className="space-y-10  md:w-[70%] px-4">
         <div>
-          <h1 className="text-3xl font-semibold">SYNE</h1>
+          <h1 className="text-3xl font-semibold">GladMinds</h1>
         </div>
         <div>
           <p className="max-md:text-sm">
-            SYNE is an enterprise SaaS platform enabling a structured approach
-            to science-based, data-driven emissions measurement using the GHG
-            Protocol and Climate Taxonomy. Powered by artificial intelligence,
-            SYNE optimization, comprehensive ESG assessments through SMART
-            Framework, and benchmarking with the SYNE Index.
+            Ecovate Tech LLP focuses on sustainable solutions for drinking water
+            using Atmospheric Water Generator (AWG) technology. They provide
+            turnkey services, from assessing water needs to installing and
+            maintaining AWGs, ensuring practical and eco-friendly solutions.
+            Partnering with Inframentum<sup>TM</sup> Assets, Ecovate offers
+            leasing, financing, and equipment rental options for AWG
+            installations to support SMEs, commercial complexes, and
+            enterprises.
           </p>
         </div>
         <div>

@@ -30,7 +30,7 @@ export default function SideBar() {
         </Button>
       </SheetTrigger>
       <SheetContent
-        className=" flex flex-col justify-center items-center space-y-4 rounded-b-3xl pb-10"
+        className=" flex flex-col justify-center items-center space-y-4 rounded-b-3xl pb-10 mt-20"
         side="top"
       >
         <SheetTitle className="hidden">Are you absolutely sure?</SheetTitle>
