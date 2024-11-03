@@ -16,6 +16,7 @@ import Privacy_Policy from "./Components/privacy-policy";
 import OurFuturePlan from "./pages/ourFuture_Plan";
 import OurPartners_Components from "./Components/OurPartners_Components";
 import About_Us_Components from "./Components/About_Us_Components";
+import Calculator from "@/pages/calculator";
 
 export default function App() {
   const router = createBrowserRouter([
@@ -56,6 +57,10 @@ export default function App() {
         {
           path: "/about-us",
           element: <About_Us_Components />,
+        },
+        {
+          path: "/calculator",
+          element: <Calculator />,
         },
       ],
     },
