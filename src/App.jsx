@@ -17,6 +17,9 @@ import OurFuturePlan from "./pages/ourFuture_Plan";
 import OurPartners_Components from "./Components/OurPartners_Components";
 import About_Us_Components from "./Components/About_Us_Components";
 import Calculator from "@/pages/calculator";
+import I_RE_ALCM_Services from "./Components/I_RE_ALCM_Services";
+import I_RENTAL_Services from "./Components/I_RENTAL_Services";
+import I_RE_FIN_Services from "./Components/I_RE_FIN_Services";
 
 export default function App() {
   const router = createBrowserRouter([
@@ -61,6 +64,18 @@ export default function App() {
         {
           path: "/calculator",
           element: <Calculator />,
+        },
+        {
+          path: "/I_RE_ALCM_Services",
+          element: <I_RE_ALCM_Services />,
+        },
+        {
+          path: "/I_RENTAL_Services",
+          element: <I_RENTAL_Services />,
+        },
+        {
+          path: "/I_RE_FIN_Services",
+          element: <I_RE_FIN_Services />,
         },
       ],
     },

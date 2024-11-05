@@ -38,6 +38,7 @@ module.exports = {
         border_Color_1: "#B9E0FF",
         background_Color_4: "#F5FAFE",
         background_Color_5: "#FF5C00",
+        motoBg: "#DEFFBD",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
