@@ -24,7 +24,7 @@ export default function Cost_Effective() {
           </p>
         </div>
         <div className="bg-black/40 h-[80%] w-full absolute top-0 left-0 z-30 rounded-3xl"></div>
-        <div className="absolute top-5 right-5 w-[50px] h-[50px] bg-secondaryColor rounded-full border border-bgShade flex items-center justify-center z-50 font-semibold text-bgShade text-3xl">
+        <div className="absolute top-5 right-5 w-[50px] h-[50px] bg-secondaryColor rounded-full border border-bgShade flex items-center justify-center z-50 font-semibold text-bgShade max-md:text-base text-3xl">
           1
         </div>
       </div>
@@ -36,7 +36,7 @@ export default function Cost_Effective() {
         />
         <div className="absolute top-[70%] left-[30%] max-md:top-[60%] max-md:left-[10%] z-50">
           <Button className="bg-secondaryColor hover:bg-secondaryColor_hover group flex items-center justify-center gap-4 px-6 py-4 rounded-3xl text-xl transition-all ease-linear duration-300">
-            <span>View</span>
+            <span className="max-md:text-sm">View</span>
             <span>
               <FaArrowRightLong
                 size={20}
@@ -46,7 +46,7 @@ export default function Cost_Effective() {
           </Button>
         </div>
         <div className="bg-black/30 h-[80%] w-full absolute top-0 left-0 z-30 rounded-3xl"></div>
-        <div className="absolute top-5 right-5 w-[50px] h-[50px] bg-secondaryColor rounded-full border border-bgShade flex items-center justify-center z-50 font-semibold text-bgShade text-3xl">
+        <div className="absolute top-5 right-5 w-[50px] h-[50px] bg-secondaryColor rounded-full border border-bgShade flex items-center justify-center z-50 font-semibold text-bgShade text-3xl max-md:text-base">
           2
         </div>
       </div>
@@ -58,7 +58,7 @@ export default function Cost_Effective() {
         />
         <div className="absolute top-[70%] left-[30%] max-md:top-[60%] max-md:left-[10%] z-50">
           <Button className="bg-secondaryColor hover:bg-secondaryColor_hover group flex items-center justify-center gap-4 px-6 py-4 rounded-3xl text-xl transition-all ease-linear duration-300">
-            <span>View</span>
+            <span className="max-md:text-sm">View</span>
             <span>
               <FaArrowRightLong
                 size={20}
@@ -68,7 +68,7 @@ export default function Cost_Effective() {
           </Button>
         </div>
         <div className="bg-black/30 h-[80%] w-full absolute top-0 left-0 z-30 rounded-3xl"></div>
-        <div className="absolute top-5 right-5 w-[50px] h-[50px] bg-secondaryColor rounded-full border border-bgShade flex items-center justify-center z-50 font-semibold text-bgShade text-3xl">
+        <div className="absolute top-5 right-5 w-[50px] h-[50px] bg-secondaryColor rounded-full border border-bgShade flex items-center justify-center z-50 font-semibold text-bgShade text-3xl max-md:text-base">
           3
         </div>
       </div>

@@ -6,8 +6,8 @@ export default function RE_ALCM_Intro() {
   return (
     <div className="space-y-5 md:space-y-10 max-md:order-2">
       <div className="space-y-3">
-        <h1 className="md:text-5xl text-4xl font-bold">I-RE-ALCM</h1>
-        <p className="text-sm md:text-lg font-medium bg-secondaryColor px-5 max-md:py-2 rounded-full">
+        <h1 className="md:text-3xl text-5xl font-bold">I-RE-ALCM</h1>
+        <p className="text-sm md:text-sm py-2 font-medium bg-secondaryColor px-5 max-md:py-2 rounded-full text-bgShade">
           Comprehensive Lifecycle Management for Renewable Energy Assets
         </p>
       </div>

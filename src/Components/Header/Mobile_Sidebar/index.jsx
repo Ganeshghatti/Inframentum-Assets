@@ -15,6 +15,8 @@ import NavigationLinks from "../NavigationLinks";
 import { Link } from "react-router-dom";
 import { useState } from "react";
 
+import { FaCalculator } from "react-icons/fa";
+
 export default function SideBar() {
   const [open, setOpen] = useState(false);
 
@@ -30,23 +32,35 @@ export default function SideBar() {
         </Button>
       </SheetTrigger>
       <SheetContent
-        className=" flex flex-col justify-center items-center space-y-4 rounded-b-3xl pb-10 mt-20"
+        className=" flex flex-col justify-center items-center space-y-4 rounded-b-3xl mt-16"
         side="top"
       >
         <SheetTitle className="hidden">Are you absolutely sure?</SheetTitle>
         <SheetDescription className="hidden"></SheetDescription>
         <div className="py-10">
           <NavigationLinks
-            className={"flex flex-col items-center space-y-8 text-2xl"}
+            className={"flex flex-col items-center space-y-4 text-2xl"}
             setOpen={setOpen}
           />
         </div>
         <Separator />
-        <div>
+        <div className="flex flex-col items-center gap-4">
+          <Link
+            onClick={onHandle_MobileSideBar}
+            to={"/calculator"}
+            className="bg-secondaryColor text-white px-2 w-full py-5   rounded-lg hover:bg-secondaryColor_hover transition-all duration-200 text-xl flex items-center justify-center gap-4"
+          >
+            <span>
+              <FaCalculator size={20} />
+            </span>
+            <span className="capitalize max-md:text-lg">
+              solar feasibility calculator
+            </span>
+          </Link>
           <Link
             onClick={onHandle_MobileSideBar}
             to={"/contact"}
-            className="bg-secondaryColor text-white px-7 w-full py-5   rounded-lg hover:bg-secondaryColor_hover transition-all duration-200 text-xl"
+            className="bg-secondaryColor text-white px-7 w-full py-5   rounded-lg hover:bg-secondaryColor_hover transition-all duration-200 text-xl text-center max-md:text-lg"
           >
             Contact Us
           </Link>

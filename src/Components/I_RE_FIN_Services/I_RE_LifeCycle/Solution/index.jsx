@@ -4,7 +4,7 @@ export default function Solution() {
   return (
     <div className="max-md:-mt-10 md:-mt-20 space-y-12">
       <div>
-        <h1 className="font-bold max-md:text-2xl max-md:text-center md:text-3xl lg:text-4xl xl:text-5xl">
+        <h1 className="font-bold max-md:text-xl max-md:text-center md:text-3xl lg:text-4xl xl:text-5xl">
           Asset Life Cycle Management Solutions
         </h1>
       </div>
@@ -12,14 +12,14 @@ export default function Solution() {
         <div className="col-span-1 max-lg:col-span-3 w-full flex items-center justify-center">
           <img src={solution} alt="Solution" className="w-full" />
         </div>
-        <div className="col-span-2 max-lg:col-span-3 flex items-center justify-center">
-          <ul className="text-xl">
+        <div className="col-span-2 max-lg:col-span-3 flex items-center justify-center ">
+          <ul className="text-xl max-md:text-sm">
             Renewable Energy Asset Management: Covers management throughout the
             entire lifecycle, from planning and design to decommissioning and
             recycling.
-            <div className="text-base font-normal mt-4 space-y-6">
+            <div className="text-base font-normal mt-4 space-y-6 max-md:text-sm">
               <li>
-                <span className="text-lg font-semibold">
+                <span className="text-lg font-semibold max-md:text-sm">
                   Performance Optimization :
                 </span>{" "}
                 <span>
@@ -28,7 +28,7 @@ export default function Solution() {
                 </span>
               </li>
               <li>
-                <span className="text-lg font-semibold">
+                <span className="text-lg font-semibold max-md:text-sm">
                   Lifecycle Cost Management :
                 </span>{" "}
                 <span>

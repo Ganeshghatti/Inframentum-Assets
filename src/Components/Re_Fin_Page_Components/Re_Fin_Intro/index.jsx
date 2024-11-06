@@ -5,9 +5,10 @@ export default function ReFinIntro() {
   return (
     <div className="space-y-5 md:space-y-10 px-5 max-md:order-2">
       <div className="space-y-3">
-        <h1 className="md:text-5xl text-4xl font-bold">I-RE-Fin</h1>
-        <p className="text-sm md:text-lg font-medium bg-secondaryColor px-6 max-md:px-2 max-md:py-2 rounded-full">
-          Empowering Renewable Energy transition with Tailored Financial Solutions
+        <h1 className="md:text-5xl text-3xl font-bold">I-RE-Fin</h1>
+        <p className="max-md:text-sm  md:text-lg font-medium bg-secondaryColor px-6 max-md:px-4 max-md:py-4 rounded-full text-bgShade">
+          Empowering Renewable Energy transition with Tailored Financial
+          Solutions
         </p>
       </div>
       <ul className="md:text-base text-sm  list-disc space-y-3">

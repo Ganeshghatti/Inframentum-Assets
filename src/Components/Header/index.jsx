@@ -3,6 +3,8 @@ import Logo from "./Logo";
 import SideBar from "./Mobile_Sidebar";
 import NavigationLinks from "./NavigationLinks";
 
+import { FaCalculator } from "react-icons/fa";
+
 export default function Header() {
   return (
     <div className="border-b shadow-lg py-3 sticky top-0 bg-white z-[9999]">
@@ -17,10 +19,21 @@ export default function Header() {
             className={"flex items-center gap-14 text-base font-medium"}
           />
         </div>
-        <div className="hidden xl:flex">
+        <div className="hidden xl:flex items-center gap-6">
+          <Link
+            to={"/calculator"}
+            className="bg-secondaryColor text-white text-sm md:text-base  px-7 py-[14px] rounded-full hover:bg-secondaryColor_hover/80 transition-all duration-200 flex items-center gap-2 "
+          >
+            <span>
+              <FaCalculator size={20} />
+            </span>
+            <span className="hidden 2xl:block">
+              solar feasibility calculator
+            </span>
+          </Link>
           <Link
             to={"/contact"}
-            className="bg-secondaryColor text-white text-sm md:text-base  px-7 py-3 rounded-full hover:bg-secondaryColor_hover transition-all duration-200"
+            className="bg-secondaryColor text-white text-sm md:text-base  px-7 py-3 rounded-full hover:bg-secondaryColor_hover/80 transition-all duration-200"
           >
             Contact Us
           </Link>

@@ -3,7 +3,7 @@ import about_Inframentum_img from "../../../../assets/images/about_Inframentum_i
 export default function About_Inframentum_Img() {
   return (
     <div className="max-xl:order-1 space-y-8">
-      <h1 className="md:text-[56px] text-3xl  font-semibold xl:hidden max-md:text-center">
+      <h1 className="md:text-[40px] text-3xl  font-semibold xl:hidden max-md:text-center">
         About INFRAMENTUM<sup>&#8482;</sup>
       </h1>
       <img

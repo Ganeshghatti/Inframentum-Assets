@@ -103,35 +103,35 @@ const teamImages = [
 //FOOTER LINKS
 const company = [
   {
-    href: "#",
+    href: "/",
+    name: "Home",
+  },
+  {
+    href: "/about-us",
     name: "About",
   },
   {
-    href: "#",
-    name: "Features",
+    href: "/I_RE_ALCM_Services",
+    name: "I-Re-Alcm",
   },
   {
-    href: "#",
-    name: "Works",
+    href: "/I_RENTAL_Services",
+    name: "I-Rental First",
   },
   {
-    href: "#",
-    name: "Career",
+    href: "/I_RE_FIN_Services",
+    name: "I-Re-Fin",
   },
 ];
 
 const help = [
   {
-    href: "/",
-    name: "Customer Support",
+    href: "/calculator",
+    name: "Solar Feasibility Calculator",
   },
   {
-    href: "/",
-    name: "Delivery Details",
-  },
-  {
-    href: "/",
-    name: "Terms & Conditions",
+    href: "/contact",
+    name: "Contact Us",
   },
   {
     href: "/privacy-policy",

@@ -1,4 +1,12 @@
+import { useNavigate } from "react-router-dom";
+
 export default function Footer1() {
+  const navigate = useNavigate();
+
+  const onNavigate_Handle = () => {
+    navigate("/calculator");
+  };
+
   return (
     <div className="bg-image-with-overlay flex items-center flex-col justify-center space-y-8">
       <div className="max-w-5xl">
@@ -7,7 +15,10 @@ export default function Footer1() {
         </h1>
       </div>
       <div>
-        <button className="bg-secondaryColor hover:bg-secondaryColor_hover transition-all duration-300 ease-linear hover:shadow-md px-6 py-3 rounded-full text-white max-md:text-sm">
+        <button
+          className="bg-secondaryColor hover:bg-secondaryColor_hover transition-all duration-300 ease-linear hover:shadow-md px-6 py-3 rounded-full text-white max-md:text-sm"
+          onClick={onNavigate_Handle}
+        >
           Let<span>&apos;</span>s get started
         </button>
       </div>

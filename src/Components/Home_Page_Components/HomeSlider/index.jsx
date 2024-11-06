@@ -31,7 +31,7 @@ export default function HomeSlider() {
             <img
               src={eachImage?.src}
               alt={eachImage?.alt}
-              className="w-full my-auto lg:h-[91svh]"
+              className="w-full my-auto lg:h-[88vh] xl:h-[90vh]  lg:border-b-8 border-secondaryColor"
             />
           </SwiperSlide>
         ))}

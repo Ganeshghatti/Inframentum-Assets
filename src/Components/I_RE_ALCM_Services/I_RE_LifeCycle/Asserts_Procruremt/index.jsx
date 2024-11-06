@@ -7,14 +7,14 @@ export default function Asserts_Procurement() {
         <img src={provider} alt="Image" className="w-full" />
       </div>
       <div className="col-span-2 max-lg:col-span-3 max-lg:order-2 flex items-center ">
-        <ul className="max-md:text-2xl text-4xl font-semibold">
+        <ul className="max-md:text-xl  text-4xl font-semibold">
           Asset Procurement
-          <div className="font-normal text-base space-y-8 mt-6">
+          <div className="font-normal max-md:text-sm text-base space-y-8 mt-6">
             <li>
-              <span className="text-secondaryColor font-semibold text-lg">
+              <span className="text-secondaryColor max-md:text-sm font-semibold text-lg">
                 Supplier Management Solutions :{" "}
               </span>
-              <span className="font-normal text-base">
+              <span className="font-normal text-base max-md:text-sm">
                 Provide support to manage relationships with suppliers, ensuring
                 that components meet quality standards and are delivered on
                 time. In future we plan to enable these through automated
@@ -22,10 +22,10 @@ export default function Asserts_Procurement() {
               </span>
             </li>
             <li>
-              <span className="text-secondaryColor font-semibold text-lg">
+              <span className="text-secondaryColor font-semibold text-lg max-md:text-sm">
                 Contract Management :{" "}
               </span>
-              <span className="font-normal text-base">
+              <span className="font-normal text-base max-md:text-sm">
                 Enable automated contract management systems to streamline
                 procurement processes and ensure compliance with contractual
                 obligations.

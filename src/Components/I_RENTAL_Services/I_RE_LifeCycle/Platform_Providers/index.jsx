@@ -4,9 +4,9 @@ export default function Platform_Providers() {
   return (
     <div className="grid grid-cols-3 gap-4">
       <div className="col-span-2 max-lg:order-2 max-lg:col-span-3 flex items-center justify-center">
-        <ol className="list-decimal list-inside max-md:text-2xl md:text-4xl font-semibold capitalize">
+        <ol className="list-decimal list-inside max-md:text-xl md:text-4xl font-semibold capitalize">
           RE-ALCM platform provides
-          <div className="text-base font-normal space-y-4 mt-4">
+          <div className="text-base font-normal space-y-4 mt-4 max-md:text-sm">
             <li>
               Renewable Energy Asset Life Cycle Management Services addressing{" "}
             </li>
