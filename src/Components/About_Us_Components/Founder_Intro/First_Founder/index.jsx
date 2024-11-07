@@ -6,7 +6,7 @@ export default function First_Founder() {
   return (
     <div className="grid grid-cols-4 gap-2  w-full md:px-2 md:py-2">
       <div className="col-span-3 max-md:col-span-4  h-auto max-md:order-2 max-md:mt-20">
-        <ul className="space-y-4 text-3xl max-lg:text-2xl font-semibold">
+        <ul className="space-y-4 max-md:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-semibold">
           Banking and Financial Services & Strategy Consulting Professional with
           38 years experience covering.
           <div className="space-y-2 text-base max-lg:text-sm font-normal pt-4 max-lg:ml-0 ml-8">

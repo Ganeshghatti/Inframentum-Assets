@@ -11,7 +11,7 @@ export default function I_RE_LifeCycle() {
   return (
     <div className="w-[95%] mx-auto space-y-10">
       <div className="bg-secondaryColor rounded-2xl p-4">
-        <h1 className=" text-center max-lg:text-xl lg:text-6xl font-semibold text-bgShade">
+        <h1 className=" text-center max-md:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-semibold text-bgShade">
           Asset Life Cycle Management Solutions
         </h1>
       </div>

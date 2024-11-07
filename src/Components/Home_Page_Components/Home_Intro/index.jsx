@@ -1,5 +1,7 @@
 import { Link } from "react-router-dom";
 
+import { FaCalculator } from "react-icons/fa6";
+
 export default function HomeIntro() {
   return (
     <div className="col-span-1 space-y-8 lg:space-y-10  max-lg:order-2 max-lg:container md:mx-auto lg:px-10 max-lg:py-5">
@@ -13,19 +15,22 @@ export default function HomeIntro() {
           renewable energy solutions for a sustainable and greener tomorrow.
         </p>
       </div>
-      <div className="flex items-center gap-4">
+      <div className="flex items-center gap-4 max-md:flex-col flex-row w-full">
         <Link
           to={"/calculator"}
-          className="bg-secondaryColor text-white text-sm md:text-base  px-4 py-3 rounded-full hover:bg-secondaryColor_hover transition-all duration-200 hover:drop-shadow-md"
+          className="bg-secondaryColor text-white text-sm md:text-base  px-4 py-[14px] rounded-full hover:bg-secondaryColor_hover/90 transition-all duration-200 hover:drop-shadow-md flex items-center gap-2 max-md:w-full max-md:justify-center"
         >
-          Get started free
+          <span>
+            <FaCalculator size={20} />
+          </span>
+          <span className="capitalize">solar feasibility calculator</span>
         </Link>
-        <a
-          href="#"
-          className=" text-slate-950 border border-black text-sm md:text-base  px-4 py-3 rounded-full hover:bg-black hover:text-white transition duration-300 hover:drop-shadow-md"
+        <Link
+          to={"/contact"}
+          className=" text-slate-950 border border-black text-sm md:text-base  px-4 py-3 rounded-full hover:bg-black hover:text-white transition duration-300 hover:drop-shadow-md capitalize max-md:w-full max-md:text-center"
         >
-          Book a Meeting
-        </a>
+          Contact us
+        </Link>
       </div>
     </div>
   );

@@ -21,17 +21,6 @@ export default function Header() {
         </div>
         <div className="hidden xl:flex items-center gap-6">
           <Link
-            to={"/calculator"}
-            className="bg-secondaryColor text-white text-sm md:text-base  px-7 py-[14px] rounded-full hover:bg-secondaryColor_hover/80 transition-all duration-200 flex items-center gap-2 "
-          >
-            <span>
-              <FaCalculator size={20} />
-            </span>
-            <span className="hidden 2xl:block">
-              solar feasibility calculator
-            </span>
-          </Link>
-          <Link
             to={"/contact"}
             className="bg-secondaryColor text-white text-sm md:text-base  px-7 py-3 rounded-full hover:bg-secondaryColor_hover/80 transition-all duration-200"
           >

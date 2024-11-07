@@ -4,7 +4,7 @@ export default function OurValuePropositionImage() {
   return (
     <div className="max-w-xl mx-auto space-y-4">
       <div>
-        <h1 className="font-semibold lg:text-[56px] md:text-5xl max-md:text-3xl  max-xl:text-center uppercase leading-loose">
+        <h1 className="font-semibold max-md:text-3xl md:text-4xl lg:text-5xl xl:text-6xl  max-xl:text-center uppercase leading-loose">
           Our <span className="text-secondaryColor">Value</span> Proposition
         </h1>
       </div>
