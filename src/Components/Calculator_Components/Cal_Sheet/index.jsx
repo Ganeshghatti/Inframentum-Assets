@@ -7,12 +7,12 @@ import {
   SheetHeader,
   SheetTitle,
   SheetTrigger,
-} from "@/components/ui/sheet";
+} from "../../../Components/ui/sheet";
 import ResultsDisplay from "../SolarCalculator/ResultsDisplay";
 
 export default function Cal_Result_Sheet({ open, setOpen, results }) {
   return (
-    <div className="relative z-[9999]">
+    <div className="">
       <Sheet open={open} onOpenChange={setOpen}>
         <SheetTrigger></SheetTrigger>
         <SheetContent
