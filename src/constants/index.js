@@ -122,9 +122,6 @@ const company = [
     href: "/I_RE_FIN_Services",
     name: "I-Re-Fin",
   },
-];
-
-const help = [
   {
     href: "/calculator",
     name: "Solar Feasibility Calculator",
@@ -133,6 +130,9 @@ const help = [
     href: "/contact",
     name: "Contact Us",
   },
+];
+
+const help = [
   {
     href: "/privacy-policy",
     name: "Privacy Policy",

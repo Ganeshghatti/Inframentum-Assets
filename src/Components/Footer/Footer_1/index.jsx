@@ -11,7 +11,7 @@ export default function Footer1() {
   return (
     <div className="bg-image-with-overlay flex items-center flex-col justify-center space-y-8">
       <div className="max-w-5xl">
-        <h1 className="text-3xl lg:text-[60px] leading-relaxed font-semibold text-white text-center">
+        <h1 className="max-md:text-xl  md:text-2xl lg:text-3xl xl:text-4xl leading-relaxed font-semibold text-white text-center">
           Take your audience to the next level starting today
         </h1>
       </div>

@@ -1,40 +1,29 @@
 import provider from "@/assets/images/provide_1.png";
 
-export default function Asserts_Performance() {
+export default function Asserts_Flexible_Rental_and_Leasing_Options() {
   return (
     <div className="grid grid-cols-3 gap-4 bg-darkBg rounded-3xl px-6 py-8 text-bgShade">
       <div className="col-span-2 max-lg:col-span-3 max-lg:order-2 flex items-center ">
         <ul className="max-md:text-xl text-4xl font-semibold">
-          Performance Optimization
+          Flexible Rental and Leasing Options
           <div className="font-normal text-base space-y-8 mt-6 max-md:text-sm">
             <li>
               <span className="text-secondaryColor font-semibold text-lg max-md:text-sm">
-                Predictive Maintenance :{" "}
+                Short-Term and Long-Term Rentals :{" "}
               </span>
               <span className="font-normal text-base max-md:text-sm">
-                Implement AI-driven predictive maintenance to forecast potential
-                failures and optimize maintenance schedules, reducing downtime
-                and repair costs.
+                Offer flexible rental terms that allow customers to rent
+                equipment for short-term or long-term projects, reducing the
+                need for capital expenditure and promoting sustainable usage.
               </span>
             </li>
             <li>
               <span className="text-secondaryColor font-semibold text-lg max-md:text-sm">
-                Remote Monitoring Systems :{" "}
+                Lease-to-Own Programs :{" "}
               </span>
               <span className="font-normal text-base max-md:text-sm">
-                Through IoT and SCADA systems for continuous, real-time
-                monitoring of asset performance, allowing for quick responses to
-                any operational issues.
-              </span>
-            </li>
-            <li>
-              <span className="text-secondaryColor font-semibold text-lg max-md:text-sm">
-                Energy Management Software :{" "}
-              </span>
-              <span className="font-normal text-base max-md:text-sm">
-                Integrate energy management systems to optimize the performance
-                of renewable energy assets, ensuring they generate the maximum
-                possible energy.
+                Provide lease-to-own options for customers looking to invest in
+                sustainable equipment over time.
               </span>
             </li>
           </div>

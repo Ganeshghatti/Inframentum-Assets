@@ -1,40 +1,29 @@
 import provider from "@/assets/images/provide_1.png";
 
-export default function Asserts_Performance() {
+export default function Asserts_After_Buy_Services() {
   return (
     <div className="grid grid-cols-3 gap-4 bg-darkBg rounded-3xl px-6 py-8 text-bgShade">
       <div className="col-span-2 max-lg:col-span-3 max-lg:order-2 flex items-center ">
         <ul className="max-md:text-xl text-4xl font-semibold">
-          Performance Optimization
+          I-RentalFirst platform enables through our after-buy services
           <div className="font-normal text-base space-y-8 mt-6 max-md:text-sm">
             <li>
               <span className="text-secondaryColor font-semibold text-lg max-md:text-sm">
-                Predictive Maintenance :{" "}
+                Preventive Maintenance :{" "}
               </span>
               <span className="font-normal text-base max-md:text-sm">
-                Implement AI-driven predictive maintenance to forecast potential
-                failures and optimize maintenance schedules, reducing downtime
-                and repair costs.
+                Implement rigorous maintenance programs to extend the lifespan
+                of equipment, ensuring that assets are used efficiently, and
+                waste is minimized.
               </span>
             </li>
             <li>
               <span className="text-secondaryColor font-semibold text-lg max-md:text-sm">
-                Remote Monitoring Systems :{" "}
+                Refurbishment and Recycling :{" "}
               </span>
               <span className="font-normal text-base max-md:text-sm">
-                Through IoT and SCADA systems for continuous, real-time
-                monitoring of asset performance, allowing for quick responses to
-                any operational issues.
-              </span>
-            </li>
-            <li>
-              <span className="text-secondaryColor font-semibold text-lg max-md:text-sm">
-                Energy Management Software :{" "}
-              </span>
-              <span className="font-normal text-base max-md:text-sm">
-                Integrate energy management systems to optimize the performance
-                of renewable energy assets, ensuring they generate the maximum
-                possible energy.
+                Focus on refurbishing older equipment and recycling parts,
+                keeping resources in use for as long as possible.
               </span>
             </li>
           </div>

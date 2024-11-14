@@ -12,7 +12,6 @@ import {
   FormLabel,
   FormMessage,
 } from "@/Components/ui/form";
-import ResultsDisplay from "./ResultsDisplay";
 
 import Cal_Result_Sheet from "../Cal_Sheet";
 
@@ -196,7 +195,6 @@ export default function SolarCalculator() {
       invertersPerMw,
       salePriceOfPower,
       installCost,
-      omCost,
       projectLifetime,
       debtToEquity,
       interestRate,

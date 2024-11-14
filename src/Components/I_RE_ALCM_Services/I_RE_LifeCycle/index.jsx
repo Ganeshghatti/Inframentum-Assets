@@ -1,4 +1,9 @@
+import Asserts_Blockchain_for_Asset_Management from "./Asserts_Blockchain_for_Asset_Management";
+import Asserts_Compliance_Reporting from "./Asserts_Compliance_Reporting";
 import Asserts_Construction from "./Asserts_Contruction";
+import Asserts_Digital_Twin_Technology from "./Asserts_Digital_Twin_Technology";
+import Asserts_End_of_Life_Management from "./Asserts_End_of_Life_Management";
+import Asserts_Lifecycle_CostManagement from "./Asserts_Lifecycle_Management";
 import Asserts_Operations from "./Asserts_Operations";
 import Asserts_Performance from "./Asserts_Performance";
 import Asserts_Planning from "./Asserts_Planning";
@@ -22,8 +27,11 @@ export default function I_RE_LifeCycle() {
         <Asserts_Construction />
         <Asserts_Operations />
         <Asserts_Performance />
-        <Asserts_Operations />
-        <Asserts_Performance />
+        <Asserts_Compliance_Reporting />
+        <Asserts_Lifecycle_CostManagement />
+        <Asserts_End_of_Life_Management />
+        <Asserts_Digital_Twin_Technology />
+        <Asserts_Blockchain_for_Asset_Management />
         <Cost_Effective />
       </div>
       <div>
