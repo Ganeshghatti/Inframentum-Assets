@@ -38,12 +38,6 @@ export default function I_RE_LifeCycle() {
           <Sustainable_Investment_Advisory />
           <Exit_Strategies />
         </div>
-        <div className="max-md:pt-20 pt-28">
-          <Value_Proposition />
-        </div>
-      </div>
-      <div className="bg-bgShade mt-14 p-10 border border-secondaryColor_hover">
-        <Target_Customer />
       </div>
     </>
   );
