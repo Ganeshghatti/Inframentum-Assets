@@ -12,8 +12,8 @@ import {
   FormLabel,
   FormMessage,
 } from "@/Components/ui/form";
-
 import Cal_Result_Sheet from "../Cal_Sheet";
+import SolarViabilityCalculator from './SolarViabilityCalculator';
 
 const formSchema = z.object({
   systemCapacity: z.string().refine((val) => parseFloat(val) > 0, {
@@ -26,147 +26,105 @@ const formSchema = z.object({
     }),
   efficiency: z
     .string()
-    .refine((val) => parseFloat(val) > 0 && parseFloat(val) <= 100, {
-      message: "Efficiency cannot exceed 100%",
+    .refine((val) => parseFloat(val) >= 0 && parseFloat(val) <= 100, {
+      message: "Efficiency must be between 0% and 100%",
     }),
   panelWattage: z
     .string()
-    .refine((val) => parseFloat(val) > 0 && parseFloat(val) <= 100, {}),
+    .refine((val) => parseFloat(val) > 0, {
+      message: "Panel wattage must be positive",
+    }),
   costPerPanel: z
     .string()
-    .refine((val) => parseFloat(val) > 0 && parseFloat(val) <= 100, {}),
+    .refine((val) => parseFloat(val) > 0, {
+      message: "Cost per panel must be positive",
+    }),
   costPerInverter: z
     .string()
-    .refine((val) => parseFloat(val) > 0 && parseFloat(val) <= 100, {}),
+    .refine((val) => parseFloat(val) > 0, {
+      message: "Cost per inverter must be positive",
+    }),
   invertersPerMw: z
     .string()
-    .refine((val) => parseFloat(val) > 0 && parseFloat(val) <= 100, {}),
+    .refine((val) => parseFloat(val) > 0, {
+      message: "Inverters per MW must be positive",
+    }),
   salePriceOfPower: z
     .string()
-    .refine((val) => parseFloat(val) > 0 && parseFloat(val) <= 100, {}),
+    .refine((val) => parseFloat(val) > 0, {
+      message: "Sale price of power must be positive",
+    }),
   installCost: z
     .string()
-    .refine((val) => parseFloat(val) > 0 && parseFloat(val) <= 100, {}),
+    .refine((val) => parseFloat(val) > 0, {
+      message: "Installation cost must be positive",
+    }),
   omCost: z
     .string()
-    .refine((val) => parseFloat(val) > 0 && parseFloat(val) <= 100, {}),
+    .refine((val) => parseFloat(val) >= 0, {
+      message: "O&M cost must be non-negative",
+    }),
   electricityTariff: z
     .string()
-    .refine((val) => parseFloat(val) > 0 && parseFloat(val) <= 100, {}),
+    .refine((val) => parseFloat(val) > 0, {
+      message: "Electricity tariff must be positive",
+    }),
   annualConsumption: z
     .string()
-    .refine((val) => parseFloat(val) > 0 && parseFloat(val) <= 100, {}),
+    .refine((val) => parseFloat(val) > 0, {
+      message: "Annual consumption must be positive",
+    }),
   projectLifetime: z
     .string()
-    .refine((val) => parseFloat(val) > 0 && parseFloat(val) <= 100, {}),
+    .refine((val) => parseInt(val) > 0, {
+      message: "Project lifetime must be positive",
+    }),
   debtToEquity: z
     .string()
-    .refine((val) => parseFloat(val) > 0 && parseFloat(val) <= 100, {}),
+    .refine((val) => parseFloat(val) >= 0, {
+      message: "Debt-to-equity ratio must be non-negative",
+    }),
   interestRate: z
     .string()
-    .refine((val) => parseFloat(val) > 0 && parseFloat(val) <= 100, {}),
+    .refine((val) => parseFloat(val) >= 0, {
+      message: "Interest rate must be non-negative",
+    }),
   loanTenure: z
     .string()
-    .refine((val) => parseFloat(val) > 0 && parseFloat(val) <= 100, {}),
+    .refine((val) => parseInt(val) > 0, {
+      message: "Loan tenure must be positive",
+    }),
   currencyConversionRate: z
     .string()
-    .refine((val) => parseFloat(val) > 0 && parseFloat(val) <= 100, {}),
+    .refine((val) => parseFloat(val) > 0, {
+      message: "Currency conversion rate must be positive",
+    }),
   incentives: z
     .string()
-    .refine((val) => parseFloat(val) > 0 && parseFloat(val) <= 100, {}),
+    .refine((val) => parseFloat(val) >= 0, {
+      message: "Incentives must be non-negative",
+    }),
 });
 
 const formFields = [
-  {
-    name: "systemCapacity",
-    label: "System Capacity (kW)",
-    placeholder: "Enter system capacity",
-  },
-  {
-    name: "sunlightHours",
-    label: "Average Sunlight Hours per Day",
-    placeholder: "Enter sunlight hours",
-  },
-  {
-    name: "efficiency",
-    label: "Panel Efficiency (%)",
-    placeholder: "Enter efficiency percentage",
-  },
-  {
-    name: "panelWattage",
-    label: "Panel Wattage (W)",
-    placeholder: "Enter panel wattage",
-  },
-  {
-    name: "costPerPanel",
-    label: "Cost per Panel (₹)",
-    placeholder: "Enter cost per panel",
-  },
-  {
-    name: "costPerInverter",
-    label: "Cost per Inverter (₹)",
-    placeholder: "Enter cost per inverter",
-  },
-  {
-    name: "invertersPerMw",
-    label: "Inverters per MW",
-    placeholder: "Enter inverters per MW",
-  },
-  {
-    name: "salePriceOfPower",
-    label: "Sale Price of Power (₹/kWh)",
-    placeholder: "Enter sale price",
-  },
-  {
-    name: "installCost",
-    label: "Installation Cost (₹)",
-    placeholder: "Enter installation cost",
-  },
-  {
-    name: "omCost",
-    label: "Annual O&M Cost (₹)",
-    placeholder: "Enter O&M cost",
-  },
-  {
-    name: "electricityTariff",
-    label: "Electricity Tariff (₹/kWh)",
-    placeholder: "Enter tariff",
-  },
-  {
-    name: "annualConsumption",
-    label: "Annual Consumption (kWh)",
-    placeholder: "Enter consumption",
-  },
-  {
-    name: "projectLifetime",
-    label: "Project Lifetime (years)",
-    placeholder: "Enter lifetime",
-  },
-  {
-    name: "debtToEquity",
-    label: "Debt to Equity Ratio",
-    placeholder: "Enter ratio",
-  },
-  {
-    name: "interestRate",
-    label: "Interest Rate (%)",
-    placeholder: "Enter interest rate",
-  },
-  {
-    name: "loanTenure",
-    label: "Loan Tenure (years)",
-    placeholder: "Enter loan tenure",
-  },
-  {
-    name: "currencyConversionRate",
-    label: "Currency Conversion Rate",
-    placeholder: "Enter rate",
-  },
-  {
-    name: "incentives",
-    label: "Incentives/Subsidies (₹)",
-    placeholder: "Enter incentives",
-  },
+  { name: "systemCapacity", label: "System Capacity (kW)", placeholder: "1000" },
+  { name: "sunlightHours", label: "Average Sunlight Hours (per day)", placeholder: "14" },
+  { name: "efficiency", label: "Panel Efficiency (%)", placeholder: "22.5" },
+  { name: "panelWattage", label: "Wattage of Each Solar Panel (W)", placeholder: "550" },
+  { name: "costPerPanel", label: "Cost per Panel (₹)", placeholder: "35750" },
+  { name: "costPerInverter", label: "Cost per Inverter (₹)", placeholder: "200000" },
+  { name: "invertersPerMw", label: "Inverters Required per MW", placeholder: "4" },
+  { name: "salePriceOfPower", label: "Sale Price of Power (₹/kWh)", placeholder: "4.5" },
+  { name: "installCost", label: "Total Installation Cost (₹)", placeholder: "16000000" },
+  { name: "omCost", label: "Annual O&M Cost (₹)", placeholder: "550000" },
+  { name: "electricityTariff", label: "Electricity Tariff (₹/kWh)", placeholder: "9.2" },
+  { name: "annualConsumption", label: "Annual Electricity Consumption (kWh)", placeholder: "1500000" },
+  { name: "projectLifetime", label: "Project Lifetime (years)", placeholder: "25" },
+  { name: "debtToEquity", label: "Debt-to-Equity Ratio", placeholder: "2.33" },
+  { name: "interestRate", label: "Loan Interest Rate (%)", placeholder: "10" },
+  { name: "loanTenure", label: "Loan Tenure (years)", placeholder: "10" },
+  { name: "currencyConversionRate", label: "Currency Conversion Rate", placeholder: "1" },
+  { name: "incentives", label: "Incentives/Subsidies (₹)", placeholder: "0" },
 ];
 
 export default function SolarCalculator() {
@@ -175,92 +133,72 @@ export default function SolarCalculator() {
 
   const form = useForm({
     resolver: zodResolver(formSchema),
-    defaultValues: formFields.reduce(
-      (acc, field) => ({
-        ...acc,
-        [field.name]: "",
-      }),
-      {}
-    ),
+    defaultValues: {
+      systemCapacity: "",
+      sunlightHours: "",
+      efficiency: "",
+      panelWattage: "",
+      costPerPanel: "",
+      costPerInverter: "",
+      invertersPerMw: "",
+      salePriceOfPower: "",
+      installCost: "",
+      omCost: "",
+      electricityTariff: "",
+      annualConsumption: "",
+      projectLifetime: "",
+      debtToEquity: "",
+      interestRate: "",
+      loanTenure: "",
+      currencyConversionRate: "",
+      incentives: "",
+    },
   });
 
   function calculateResults(values) {
-    const {
-      systemCapacity,
-      sunlightHours,
-      efficiency,
-      panelWattage,
-      costPerPanel,
-      costPerInverter,
-      invertersPerMw,
-      salePriceOfPower,
-      installCost,
-      projectLifetime,
-      debtToEquity,
-      interestRate,
-      loanTenure,
-      degradationRate = 0.005,
-      discountRate = 0.07,
-    } = values;
+    const calculator = new SolarViabilityCalculator(
+      parseFloat(values.systemCapacity),
+      parseFloat(values.sunlightHours),
+      parseFloat(values.efficiency),
+      parseFloat(values.panelWattage),
+      parseFloat(values.costPerPanel),
+      parseFloat(values.costPerInverter),
+      parseFloat(values.invertersPerMw),
+      parseFloat(values.salePriceOfPower),
+      parseFloat(values.installCost),
+      parseFloat(values.omCost),
+      parseFloat(values.electricityTariff),
+      parseFloat(values.annualConsumption),
+      parseInt(values.projectLifetime),
+      parseFloat(values.debtToEquity),
+      parseFloat(values.interestRate),
+      parseInt(values.loanTenure),
+      parseFloat(values.currencyConversionRate),
+      parseFloat(values.incentives)
+    );
 
-    // Basic calculations
-    const numberofPanels = Math.floor((systemCapacity * 1000) / panelWattage);
-    const panelCost = numberofPanels * costPerPanel;
-    const numberofInverters = (systemCapacity / 1000) * invertersPerMw;
-    const inverterCost = numberofInverters * costPerInverter;
-    const annualEnergyProduction =
-      systemCapacity * sunlightHours * 365 * (efficiency / 100);
-    const annualRevenue = annualEnergyProduction * salePriceOfPower;
-    const totalProjectCost = panelCost + inverterCost + installCost;
-
-    // Financial calculations
-    const debt = totalProjectCost * (debtToEquity / (1 + debtToEquity));
-    const equity = totalProjectCost - debt;
-    const interestRateDecimal = interestRate / 100;
-    const annualDebtRepayment =
-      (debt * interestRateDecimal) /
-      (1 - Math.pow(1 + interestRateDecimal, -loanTenure));
-    const paybackPeriod = totalProjectCost / annualRevenue;
-
-    // ROI Calculation
-    const totalRevenue = Array.from(
-      { length: projectLifetime },
-      (_, year) => annualRevenue * Math.pow(1 - degradationRate, year)
-    ).reduce((sum, revenue) => sum + revenue, 0);
-
-    const roi = ((totalRevenue - totalProjectCost) / totalProjectCost) * 100;
-
-    // NPV Calculation
-    const npv =
-      -totalProjectCost +
-      Array.from(
-        { length: projectLifetime },
-        (_, year) =>
-          (annualRevenue * Math.pow(1 - degradationRate, year)) /
-          Math.pow(1 + discountRate, year + 1)
-      ).reduce((sum, value) => sum + value, 0);
-
-    return {
-      numberofPanels,
-      panelCost,
-      numberofInverters,
-      inverterCost,
-      annualEnergyProduction,
-      annualRevenue,
-      totalProjectCost,
-      debt,
-      equity,
-      annualDebtRepayment,
-      paybackPeriod: paybackPeriod.toFixed(2),
-      roi: roi.toFixed(2),
-      npv: npv.toFixed(2),
+    const results = {
+      numberofPanels: calculator.numberOfPanels(),
+      panelCost: calculator.panelCost(),
+      numberofInverters: calculator.numberOfInverters(),
+      inverterCost: calculator.inverterCost(),
+      annualEnergyProduction: calculator.annualEnergyProduction(),
+      annualRevenue: calculator.annualRevenue(),
+      totalProjectCost: calculator.totalProjectCost(),
+      debt: calculator.debtEquitySplit().debt,
+      equity: calculator.debtEquitySplit().equity,
+      annualDebtRepayment: calculator.annualDebtRepayment(),
+      paybackPeriod: calculator.paybackPeriod(),
+      roi: calculator.calculateROI(),
+      npv: calculator.calculateNPV(),
     };
+
+    setResults(results);
+    setOpen(true);
   }
 
   function onSubmit(values) {
-    const results = calculateResults(values);
-    setResults(results);
-    setOpen(true);
+    calculateResults(values);
   }
 
   return (
@@ -269,46 +207,22 @@ export default function SolarCalculator() {
         <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-6">
           <div className="grid md:grid-cols-2 gap-4">
             {formFields.map((field) => (
-              <FormField
-                key={field.name}
-                control={form.control}
-                name={field.name}
-                render={({ field: formField }) => (
-                  <FormItem>
-                    <FormLabel>{field.label}</FormLabel>
-                    <FormControl>
-                      <Input
-                        type="text"
-                        placeholder={field.placeholder}
-                        {...formField}
-                        onChange={(e) => {
-                          const value = e.target.value;
-                          // Only allow positive numbers or empty string
-                          if (
-                            /^\d*\.?\d*$/.test(value) &&
-                            parseFloat(value) >= 0
-                          ) {
-                            formField.onChange(value);
-                          }
-                        }}
-                      />
-                    </FormControl>
-                    <FormMessage />
-                  </FormItem>
-                )}
-              />
+              <FormItem key={field.name}>
+                <FormLabel>{field.label}</FormLabel>
+                <FormControl>
+                  <Input
+                    placeholder={field.placeholder}
+                    {...form.register(field.name)}
+                  />
+                </FormControl>
+                <FormMessage />
+              </FormItem>
             ))}
           </div>
-
-          <Button type="submit" className="w-full">
-            Calculate Viability
-          </Button>
+          <Button type="submit" className="w-full">Calculate</Button>
         </form>
       </Form>
-
-      {results && (
-        <Cal_Result_Sheet open={open} setOpen={setOpen} results={results} />
-      )}
+      <Cal_Result_Sheet open={open} setOpen={setOpen} results={results} />
     </div>
   );
 }
