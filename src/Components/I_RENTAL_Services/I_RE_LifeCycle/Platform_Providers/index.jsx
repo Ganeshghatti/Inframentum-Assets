@@ -1,4 +1,4 @@
-import provide_1 from "@/assets/images/provide_1.png";
+import provide_1 from "@/assets/images/First/provide_1.png";
 
 export default function Platform_Providers() {
   return (
@@ -25,7 +25,11 @@ export default function Platform_Providers() {
         </ol>
       </div>
       <div className="col-span-1 max-lg:order-1 max-lg:col-span-3 max-md:mb-8 w-full">
-        <img src={provide_1} alt="Provider" className="w-full" />
+        <img
+          src={provide_1}
+          alt="Provider"
+          className="lg:w-[33pc] lg:h-[350px] rounded-[25px]"
+        />
       </div>
     </div>
   );

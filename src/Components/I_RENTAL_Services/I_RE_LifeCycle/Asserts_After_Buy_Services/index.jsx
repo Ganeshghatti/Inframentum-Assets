@@ -1,8 +1,8 @@
-import provider from "@/assets/images/provide_1.png";
+import provider from "@/assets/images/First/provide_2.png";
 
 export default function Asserts_After_Buy_Services() {
   return (
-    <div className="grid grid-cols-3 gap-4 bg-darkBg rounded-3xl px-6 py-8 text-bgShade">
+    <div className="grid grid-cols-3 gap-4 bg-[#cef5fc] rounded-3xl px-6 py-8 text-black">
       <div className="col-span-2 max-lg:col-span-3 max-lg:order-2 flex items-center ">
         <ul className="max-md:text-xl text-4xl font-semibold">
           I-RentalFirst platform enables through our after-buy services
@@ -30,7 +30,11 @@ export default function Asserts_After_Buy_Services() {
         </ul>
       </div>
       <div className="col-span-1 max-lg:col-span-3 max-lg:order-1 w-full flex items-center justify-center">
-        <img src={provider} alt="Image" className="w-full" />
+        <img
+          src={provider}
+          alt="Image"
+          className="lg:w-[33pc] lg:h-[350px] rounded-[25px]"
+        />
       </div>
     </div>
   );
