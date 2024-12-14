@@ -13,20 +13,20 @@ export default function AboutInframentum() {
             INFRAMENTUM<sup>&#8482;</sup>
           </span>
         </div>
-        <p className="text-secondaryColor font-semibold md:text-lg text-base">
+        <p className="text-secondaryColor font-semibold md:text-lg text-base lg:text-[18px]">
           Empowering Businesses Through Flexible Ownership and Rental Solutions
           for Clean Energy Assets
         </p>
-        <p className="text-sm md:text-base">
-          <span className="text-slate-950">
+        <p className="text-sm md:text-base lg:text-[18px]">
+          <span className="text-slate-950 ">
             Inframentum<sup className="text-[10px] font-semibold">TM</sup>{" "}
           </span>
           is a Company focused on Asset Life Cycle Management for Renewable
           Energy, Water and sustainable Infrastructure assets.
         </p>
       </div>
-      <ul className="list-disc text-sm space-y-3">
-        <span className="font-semibold text-sm">
+      <ul className="list-disc text-sm space-y-3 lg:text-[18px]">
+        <span className="font-semibold text-sm lg:text-[18px]">
           Experienced founders with a track record of over 100 + years covering
         </span>
         <div className="pl-4 space-y-3">

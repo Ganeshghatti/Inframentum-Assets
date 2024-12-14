@@ -10,7 +10,7 @@ export default function Our_Mission_Container() {
           </h1>
         </div>
         <div className="md:w-[80%] w-full">
-          <p className="max-md:text-justify">
+          <p className="max-md:text-justify lg:text-[18px]">
             To empower the transition to sustainable energy by delivering
             innovative, data-driven asset life cycle management solutions. We
             are committed to optimizing the performance, reliability, and
@@ -22,7 +22,7 @@ export default function Our_Mission_Container() {
       </div>
       {/* -------------------------------------------------------------------- */}
       <div className="col-span-2 max-md:flex-col flex items-center justify-center gap-4 px-5 py-4 space-y-6">
-        <div className="md:w-[80%] w-full max-md:order-2 max-md:pb-5">
+        <div className="md:w-[80%] w-full max-md:order-2 max-md:pb-5 lg:text-[18px]">
           <p className="max-md:text-justify">
             To empower the transition to sustainable energy by delivering
             innovative, data-driven asset life cycle management solutions. We

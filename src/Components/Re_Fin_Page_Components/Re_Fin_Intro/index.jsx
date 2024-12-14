@@ -3,18 +3,18 @@ import { BsArrowRight } from "react-icons/bs";
 
 export default function ReFinIntro() {
   return (
-    <div className="space-y-5 md:space-y-10 px-5 max-md:order-2">
+    <div className="space-y-5 md:space-y-10  max-md:order-2">
       <div className="space-y-3">
         <h1 className="max-md:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold">
           I-RE-Fin
         </h1>
-        <p className="max-md:text-sm  md:text-lg font-medium bg-secondaryColor px-6 max-md:px-4 max-md:py-4 rounded-full text-bgShade">
+        <p className="max-md:text-sm md:text-lg font-medium lg:text-[18px] bg-secondaryColor px-6 max-md:px-4 max-md:py-4 rounded-full text-bgShade ">
           Empowering Renewable Energy transition with Tailored Financial
           Solutions
         </p>
       </div>
       <ul className="md:text-base text-sm  list-disc space-y-3">
-        <div className="pl-3 space-y-3">
+        <div className="pl-3 space-y-3 lg:text-[18px]">
           <li>
             Inframentum<sup className="text-[10px] font-semibold">TM</sup>{" "}
             offers diverse financial services for industry growth{" "}
