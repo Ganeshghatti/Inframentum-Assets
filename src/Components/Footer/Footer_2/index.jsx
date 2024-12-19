@@ -1,3 +1,4 @@
+import { FaLinkedin } from "react-icons/fa6";
 import logo from "../../../assets/images/logo.png";
 
 // SEPARATOR
@@ -58,7 +59,7 @@ export default function Footer2() {
               </h1>
               <div className="flex items-center gap-4">
                 <a
-                  href="https://twitter.com"
+                  href="https://x.com/Inframentum"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-600 hover:text-blue-400 transition-colors"
@@ -66,15 +67,15 @@ export default function Footer2() {
                   <FaTwitter size={20} />
                 </a>
                 <a
-                  href="https://youtube.com"
+                  href="https://www.linkedin.com/company/inframentum-assets-private-limited/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-600 hover:text-red-600 transition-colors"
                 >
-                  <FaYoutube size={20} />
+                  <FaLinkedin size={20} />
                 </a>
                 <a
-                  href="https://instagram.com"
+                  href="https://www.instagram.com/inframentum/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-600 hover:text-pink-600 transition-colors"
