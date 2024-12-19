@@ -22,7 +22,7 @@ export default function AboutInframentum() {
             Inframentum<sup className="text-[10px] font-semibold">TM</sup>{" "}
           </span>
           is a Company focused on Asset Life Cycle Management for Renewable
-          Energy, Water and sustainable Infrastructure assets.
+          Energy, Water and Sustainable Infrastructure Assets.
         </p>
       </div>
       <ul className="list-disc text-sm space-y-3 lg:text-[18px]">

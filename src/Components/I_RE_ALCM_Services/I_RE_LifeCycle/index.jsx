@@ -9,6 +9,7 @@ import Asserts_Performance from "./Asserts_Performance";
 import Asserts_Planning from "./Asserts_Planning";
 import Asserts_Procurement from "./Asserts_Procruremt";
 import Cost_Effective from "./Cost_Effective";
+import Cost from "./Cost_Effective/cost";
 import Platform_Providers from "./Platform_Providers";
 import Solution from "./Solution";
 
@@ -32,7 +33,8 @@ export default function I_RE_LifeCycle() {
         <Asserts_End_of_Life_Management />
         <Asserts_Digital_Twin_Technology />
         <Asserts_Blockchain_for_Asset_Management />
-        <Cost_Effective />
+        {/* <Cost_Effective /> */}
+        <Cost />
       </div>
       <div>
         <Solution />

@@ -5,6 +5,7 @@ export default function Footer1() {
   const navigate = useNavigate();
 
   const onNavigate_Handle = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
     navigate("/calculator");
   };
 

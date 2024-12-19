@@ -9,6 +9,7 @@ import "swiper/css/pagination";
 import { Pagination, Autoplay } from "swiper/modules";
 import { homeSlider_Images } from "@/constants";
 import { Button } from "@/Components/ui/button";
+import { useNavigate } from "react-router-dom";
 
 // IMAGES
 
@@ -16,6 +17,7 @@ import { Button } from "@/Components/ui/button";
 import { FaArrowRightLong } from "react-icons/fa6";
 
 export default function OurPartners_Slides() {
+  const navigate = useNavigate(); // {{ edit_2 }}
   return (
     <div className="relative">
       <Swiper
@@ -54,7 +56,11 @@ export default function OurPartners_Slides() {
           </p>
         </div>
         <div>
-          <Button className="bg-secondaryColor hover:bg-secondaryColor_hover/70 px-5 py-4 rounded-full text-white transition-all duration-300 ease-linear flex items-center justify-center gap-2 group">
+          <Button
+            onClick={() => navigate("/contact")}
+            s
+            className="bg-secondaryColor hover:bg-secondaryColor_hover/70 px-5 py-4 rounded-full text-white transition-all duration-300 ease-linear flex items-center justify-center gap-2 group"
+          >
             <span>Get Started Free</span>
             <span>
               <FaArrowRightLong

@@ -23,7 +23,7 @@ export default function Second_Founder() {
         <h1 className="space-y-4 max-md:text-2xl md:text-3xl lg:text-4xl xl:text-4xl  font-semibold lg:text-[18px]">
           Entrepreneur since the last 26 years, spread across geographies both
           in India and abroad and across products and services predominantly in
-          the Construction Equipment, Earthmoving & Mining segments.
+          the Construction Equipment, Earthmoving & Mining segments:
         </h1>
 
         {/* -----------------Other Assignments----------------- */}

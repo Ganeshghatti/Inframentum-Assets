@@ -11,7 +11,7 @@ export default function Asserts_Procurement() {
         />
       </div>
       <div className="col-span-2 max-lg:col-span-3 max-lg:order-2 flex items-center ">
-        <ul className="max-md:text-xl  text-4xl font-semibold">
+        <ul className="max-md:text-xl ml-[40px]  text-4xl font-semibold">
           Asset Procurement
           <div className="font-normal max-md:text-sm  text-base space-y-8 mt-6">
             <li>
