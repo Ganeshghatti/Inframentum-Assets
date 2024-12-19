@@ -2,9 +2,27 @@ import cost from "@/assets/images/cost.png";
 import cost_2 from "@/assets/images/cost_2.png";
 import cost_3 from "@/assets/images/cost_3.png";
 import { Button } from "@/Components/ui/button";
+import { useState } from "react";
 import { FaArrowRightLong } from "react-icons/fa6";
 
 export default function Cost_Effective() {
+  const Panels = [
+    {
+      image: cost,
+      title: "Renewable Energy and Asset Management",
+      desc: "Manages the entire lifecycle, from planning and design to decommissioning and recycling, ensuring optimal performance and sustainability.",
+    },
+    {
+      image: cost_2,
+      title: "Renewable Energy and Asset Management",
+      desc: "Manages the entire lifecycle, from planning and design to decommissioning and recycling, ensuring optimal performance and sustainability.",
+    },
+    {
+      image: cost_3,
+      title: "Renewable Energy and Asset Management",
+      desc: "Manages the entire lifecycle, from planning and design to decommissioning and recycling, ensuring optimal performance and sustainability.",
+    },
+  ];
   return (
     <div className="grid grid-cols-8 gap-4">
       <div className="max-lg:col-span-8 col-span-4 relative rounded-3xl">

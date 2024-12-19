@@ -10,7 +10,7 @@ export default function Asserts_Green_Certification_Support() {
           className="lg:w-[33pc] lg:h-[350px] rounded-[25px]"
         />
       </div>
-      <div className="col-span-2 max-lg:col-span-3 max-lg:order-2 flex items-center ">
+      <div className="lg:w-[56pc] lg:ml-5 col-span-2 max-lg:col-span-3 max-lg:order-2 flex items-center ">
         <ul className="max-md:text-lg text-4xl font-semibold">
           Green Certification Support
           <div className="font-normal text-base space-y-8 mt-6 max-md:text-sm">

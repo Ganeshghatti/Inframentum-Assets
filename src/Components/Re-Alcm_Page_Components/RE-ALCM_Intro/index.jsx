@@ -1,6 +1,7 @@
 // REACT ICONS
 
 import { BsArrowRight } from "react-icons/bs";
+import { Link } from "react-router-dom";
 
 export default function RE_ALCM_Intro() {
   return (
@@ -13,7 +14,7 @@ export default function RE_ALCM_Intro() {
           Comprehensive Lifecycle Management for Renewable Energy Assets
         </p>
       </div>
-      <ul className="md:text-base text-sm  list-disc space-y-3">
+      <ul className="md:text-base text-sm list-disc space-y-3 lg:ml-2">
         <div className="pl-3 space-y-3 lg:text-[18px]">
           <li>
             Renewable Energy Asset Life Cycle Management Services addressing.
@@ -26,15 +27,17 @@ export default function RE_ALCM_Intro() {
         </div>
       </ul>
       <div>
-        <button className="flex items-center gap-2 bg-secondaryColor text-white px-5 py-3 rounded-full group hover:shadow-xl text-sm md:text-base">
-          <span>Learn More</span>
-          <span>
-            <BsArrowRight
-              size={22}
-              className="group-hover:translate-x-2 transition duration-300"
-            />
-          </span>
-        </button>
+        <Link to="/I_RE_ALCM_Services">
+          <button className="flex items-center gap-2 bg-secondaryColor text-white px-5 py-3 rounded-full group hover:shadow-xl text-sm md:text-base">
+            <span>Learn More</span>
+            <span>
+              <BsArrowRight
+                size={22}
+                className="group-hover:translate-x-2 transition duration-300"
+              />
+            </span>
+          </button>
+        </Link>
       </div>
     </div>
   );

@@ -22,8 +22,8 @@ export default function I_Re_Moto() {
           <span className="text-6xl size-min text-white z-40">Protect</span>
           <div className="w-[350px] h-[250px] bg-black/20 absolute top-0 left-0 rounded-3xl"></div>
         </div>
-        <div className=" w-[350px] h-[250px] bg-secondaryColor rounded-3xl  flex items-center justify-center">
-          <FaArrowRightLong size={150} className="text-white" />
+        <div className="text-white lg:text-[18px] w-[350px] h-[250px] bg-secondaryColor rounded-3xl  flex items-center justify-center">
+          <span className="text-6xl font-semibold">Our</span>
         </div>
         <div
           className=" w-[350px] h-[250px] rounded-3xl relative flex items-center justify-center"

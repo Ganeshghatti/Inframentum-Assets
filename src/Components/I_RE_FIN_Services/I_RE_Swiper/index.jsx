@@ -45,12 +45,13 @@ export default function I_Re_ALCM_Slides() {
       <div className="absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] z-50 flex flex-col items-center justify-center max-lg:gap-2 gap-4 max-lg:w-full">
         <div className="w-full h-full">
           <h1 className="text-xl text-white md:text-6xl capitalize font-semibold text-center">
-            Asset Life Cycle Management Solutions
+            Financial services for RE Sector
           </h1>
         </div>
         <div className="max-sm:hidden">
           <p className="text-white font-semibold text-sm text-center">
-            Comprehensive Lifecycle Management for Renewable Energy Assets
+            Empowering Renewable Energy Transition with Tailored Financial
+            Solutions.
           </p>
         </div>
         <div>
