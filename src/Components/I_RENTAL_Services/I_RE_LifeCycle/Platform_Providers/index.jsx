@@ -2,8 +2,8 @@ import provide_1 from "@/assets/images/First/provide_1.png";
 
 export default function Platform_Providers() {
   return (
-    <div className="grid grid-cols-3 gap-4">
-      <div className="lg:ml-5 lg:w-[56pc] col-span-2 max-lg:order-2 max-lg:col-span-3 flex items-center justify-center">
+    <div className="grid grid-cols-1 md:grid-cols-3 gap-4 bg-[#cef5fc] rounded-3xl px-6 py-8 text-black">
+      <div className="col-span-1 md:col-span-2 flex items-center">
         <ol className=" list-decimal list-inside max-md:text-xl md:text-4xl font-semibold capitalize">
           I-RentalFirst provides
           <div className="text-base font-normal space-y-4 mt-4 max-md:text-sm">
