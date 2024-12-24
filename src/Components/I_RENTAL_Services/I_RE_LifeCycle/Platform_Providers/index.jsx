@@ -24,11 +24,11 @@ export default function Platform_Providers() {
           </div>
         </ol>
       </div>
-      <div className="lg:mr-[20px] col-span-1 max-lg:order-1 max-lg:col-span-3 max-md:mb-8 w-full">
+      <div className="col-span-1 flex items-center justify-center mb-4 md:mb-0">
         <img
           src={provide_1}
-          alt="Provider"
-          className="lg:w-[33pc] lg:h-[350px] rounded-[25px] "
+          alt="Image"
+          className="lg:w-[33pc] lg:h-[350px] rounded-[25px]"
         />
       </div>
     </div>
