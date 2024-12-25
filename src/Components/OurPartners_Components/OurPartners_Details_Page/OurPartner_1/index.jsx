@@ -1,5 +1,6 @@
 import { Button } from "@/Components/ui/button";
 import p_logo_1 from "../../../../assets/images/p_logo_1.png";
+import { Link } from "react-router-dom";
 
 // REACT ICON
 import { FaArrowRightLong } from "react-icons/fa6";
@@ -22,13 +23,19 @@ export default function OurPartner_1() {
         </div>
         <div>
           <Button className="flex items-center gap-2 group bg-secondaryColor_hover hover:bg-secondaryColor/50 transition-all duration-300 ease-linear rounded-full px-5 py-2">
-            <span>Learn More</span>
-            <span>
-              <FaArrowRightLong
-                size={20}
-                className="group-hover:translate-x-1 transition-all duration-300 ease-linear"
-              />
-            </span>
+            <a
+              href="https://www.syne.com/"
+              target="_blank"
+              className="flex items-center gap-2"
+            >
+              <span>Learn More</span>
+              <span>
+                <FaArrowRightLong
+                  size={20}
+                  className="group-hover:translate-x-1 transition-all duration-300 ease-linear"
+                />
+              </span>
+            </a>
           </Button>
         </div>
       </div>
