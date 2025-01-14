@@ -20,7 +20,7 @@ export default function First_Founder() {
 
         {/* -----------------Other Assignments----------------- */}
         <ul className="space-y-4 text-3xl max-lg:text-2xl font-semibold mt-14">
-          Other Assignments
+          Other Roles
           <div className="space-y-4 text-sm font-normal pt-4 max-lg:ml-0 ml-8 lg:text-[18px]">
             <li className="flex items-start w-full gap-2">
               <span className="w-[5%]">
@@ -62,7 +62,7 @@ export default function First_Founder() {
         </ul>
         {/* -----------------Other Assignments----------------- */}
         <ul className="space-y-8 my-4 text-3xl max-lg:text-2xl font-semibold mt-14 relative">
-          Past Assignments
+          Past Experience
           <div className="space-y-4 text-sm font-normal pt-4 max-lg:ml-0 ml-8 mt-2 lg:text-[18px]">
             <li className="flex items-start w-full gap-2">
               <span className="w-[5%]">
@@ -79,15 +79,6 @@ export default function First_Founder() {
               </span>
               <span className="w-[90%]">Director & CFO of NBFC-MFI</span>
             </li>
-            <li className="flex items-start w-full gap-2">
-              <span className="w-[5%]">
-                <img src={circle} alt="Circle" />
-              </span>
-              <span className="w-[90%]">
-                Alumni of IIM Bangalore with Executive MBA and Post Graduate
-                Diploma in Financial Management and Post Graduate in Commerce
-              </span>
-            </li>
           </div>
         </ul>
       </div>
@@ -101,9 +92,13 @@ export default function First_Founder() {
           <span className="max-lg:text-sm text-2xl font-semibold">
             Ramakrishnan Venkateswaran
           </span>
-          <span className="max-lg:text-xs text-sm font-normal">
-            Founder and CEO
+          <span className="max-lg:text-xs text-sm font-medium">
+            (Founder and CEO)
           </span>
+          <p className="text-base">
+            Alumni of IIM Bangalore with Executive MBA and Post Graduate Diploma
+            in Financial Management and Post Graduate in Commerce.
+          </p>
         </div>
       </div>
     </div>
