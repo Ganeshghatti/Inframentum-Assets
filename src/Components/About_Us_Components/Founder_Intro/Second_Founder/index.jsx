@@ -14,9 +14,11 @@ export default function Second_Founder() {
           <span className="max-lg:text-sm text-2xl font-semibold">
             Ananth lyer
           </span>
-          <span className="max-lg:text-xs text-sm font-normal lg:text-[18px]">
-            Co-Founder and Director
+          <span className="max-lg:text-xs text-sm font-medium">
+            (Co-Founder and Director)
           </span>
+
+          <span className="w-[90%]">BE in Chemical Engineering</span>
         </div>
       </div>
       <div className="col-span-3 max-md:col-span-4  h-auto max-md:order-2 lg:ml-6 max-md:mt-20">
@@ -28,7 +30,7 @@ export default function Second_Founder() {
 
         {/* -----------------Other Assignments----------------- */}
         <ul className="space-y-8 my-4 text-3xl max-lg:text-2xl font-semibold mt-14 relative">
-          Other Assignments
+          Other Roles
           <div className="space-y-4 text-sm font-normal pt-4 max-lg:ml-0 ml-8 mt-2 lg:text-[18px]">
             <li className="flex items-start w-full gap-2">
               <span className="w-[5%]">
@@ -76,12 +78,6 @@ export default function Second_Founder() {
                 across segments including large Corporate clients like L&T, Tata
                 Projects, JSW etc.,
               </span>
-            </li>
-            <li className="flex items-start w-full gap-2">
-              <span className="w-[5%]">
-                <img src={circle} alt="Circle" />
-              </span>
-              <span className="w-[90%]">BE in Chemical Engineering</span>
             </li>
           </div>
         </ul>

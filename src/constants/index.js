@@ -9,6 +9,7 @@ import billionTech from "../assets/images/partners-2.png";
 import gladMinds from "../assets/images/partners-1.png";
 import ecovate from "../assets/images/partners-3.png";
 import syne from "../assets/images/partners-4.png";
+import fainfra from "../assets/images/fainfra.png";
 
 // TEAM IMAGES
 
@@ -53,6 +54,12 @@ const partnersImages = [
     src: ecovate,
     alt: "EcoVate",
     link: "/our-partners",
+  },
+  {
+    src: fainfra,
+    alt: "Fa-infra",
+    link: "/our-partners",
+    class: "w-[150px] h-[auto]",
   },
 ];
 

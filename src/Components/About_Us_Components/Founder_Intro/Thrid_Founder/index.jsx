@@ -13,7 +13,7 @@ export default function Third_Founder() {
 
         {/* -----------------Other Assignments----------------- */}
         <ul className="space-y-4 text-3xl max-lg:text-2xl font-semibold mt-14">
-          Other Assignments
+          Other Roles
           <div className="space-y-4 text-sm font-normal pt-4 max-lg:ml-0 ml-8 lg:text-[18px]">
             <li className="flex items-start w-full gap-2">
               <span className="w-[5%]">
@@ -46,7 +46,7 @@ export default function Third_Founder() {
         </ul>
         {/* -----------------Other Assignments----------------- */}
         <ul className="space-y-8 my-4 text-3xl max-lg:text-2xl font-semibold mt-14 relative">
-          Past Assignments
+          Past Experience
           <div className="space-y-4 text-sm font-normal pt-4 max-lg:ml-0 ml-8 mt-2 lg:text-[18px]">
             <li className="flex items-start w-full gap-2">
               <span className="w-[5%]">
@@ -75,12 +75,6 @@ export default function Third_Founder() {
                 Power Assets Management
               </span>
             </li>
-            <li className="flex items-start w-full gap-2">
-              <span className="w-[5%]">
-                <img src={circle} alt="Circle" />
-              </span>
-              <span className="w-[90%]">BTech in Electrical Engineering</span>
-            </li>
           </div>
         </ul>
       </div>
@@ -94,9 +88,10 @@ export default function Third_Founder() {
           <span className="max-lg:text-sm text-2xl font-semibold">
             Tirumalai Velu
           </span>
-          <span className="max-lg:text-xs text-sm font-normal">
-            Co-Founder and Director
+          <span className="max-lg:text-xs text-sm font-medium">
+            (Co-Founder and Director)
           </span>
+          <span className="w-[90%]">BTech in Electrical Engineering</span>
         </div>
       </div>
     </div>
