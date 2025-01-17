@@ -1,10 +1,10 @@
 const navLinks = [
-  { path: "/", pathName: "Home" },
-  { path: "/about-us", pathName: "About us", active: true },
-  { path: "/I_RE_ALCM_Services", pathName: "RE-ALCM" },
+  { path: "/", pathName: "HOME" },
+  { path: "/about-us", pathName: "ABOUT US" },
+  { path: "/I_RE_ALCM_Services", pathName: "REALCM" },
   { path: "/I_RENTAL_Services", pathName: "RENTALFIRST" },
-  { path: "/I_RE_FIN_Services", pathName: "RE-Fin" },
-  { path: "/our-partners", pathName: "Our Partners" },
+  { path: "/I_RE_FIN_Services", pathName: "REFIN" },
+  { path: "/our-partners", pathName: "OUR PARTNERS" },
 ];
 
 export { navLinks };

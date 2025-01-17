@@ -20,9 +20,8 @@ export default function Third_Founder() {
                 <img src={Star_Icon} alt="Star" />
               </span>
               <span className="w-[90%]">
-                Past Experience includes Senior positions in GE Energy, Suzlon
-                Energy etc., apart from Managing Own Companies in the Power
-                sector
+                Founder Director in Wind Power Technologies Pvt Ltd-Wind Power
+                Assets Management
               </span>
             </li>
             <li className="flex items-start w-full gap-2">
@@ -30,8 +29,8 @@ export default function Third_Founder() {
                 <img src={Star_Icon} alt="Star" />
               </span>
               <span className="w-[90%]">
-                Key expertise includes Handling Project From concept to
-                commissioning large scale land procurement & Liaison
+                Founder Director in JHP Wind Power Pvt Ltd-Wind Power Assets
+                Management
               </span>
             </li>
             <li className="flex items-start w-full gap-2">
@@ -39,7 +38,8 @@ export default function Third_Founder() {
                 <img src={Star_Icon} alt="Star" />
               </span>
               <span className="w-[90%]">
-                Overseeing Asset Management and Operations
+                Operations Head in FA Infra & Renewable Pvt Ltd-Solar and Wind
+                Power Assets Management
               </span>
             </li>
           </div>
@@ -53,8 +53,9 @@ export default function Third_Founder() {
                 <img src={circle} alt="Circle" />
               </span>
               <span className="w-[90%]">
-                Founder Director in Wind Power Technologies Pvt Ltd-Wind Power
-                Assets Management
+                Past Experience includes Senior positions in GE Energy, Suzlon
+                Energy etc., apart from Managing Own Companies in the Power
+                sector
               </span>
             </li>
             <li className="flex items-start w-full gap-2">
@@ -62,8 +63,8 @@ export default function Third_Founder() {
                 <img src={circle} alt="Circle" />
               </span>
               <span className="w-[90%]">
-                Founder Director in JHP Wind Power Pvt Ltd-Wind Power Assets
-                Management
+                Key expertise includes Handling Project From concept to
+                commissioning large scale land procurement & Liaison
               </span>
             </li>
             <li className="flex items-start w-full gap-2">
@@ -71,8 +72,7 @@ export default function Third_Founder() {
                 <img src={circle} alt="Circle" />
               </span>
               <span className="w-[90%]">
-                Operations Head in FA Infra & Renewable Pvt Ltd-Solar and Wind
-                Power Assets Management
+                Overseeing Asset Management and Operations
               </span>
             </li>
           </div>
