@@ -4,7 +4,6 @@ import Platform_Providers from "./Platform_Providers";
 import Asserts_After_Buy_Services from "./Asserts_After_Buy_Services";
 import Asserts_Sustainable_Supply_Chain from "./Asserts_Sustainable_Supply_Chain";
 import Asserts_Flexible_Rental_and_Leasing_Options from "./Asserts_Flexible_Rental_and_Leasing_Options";
-import Asserts_Green_Certification_Support from "./Asserts_Green_Certification_Support";
 import Asserts_Sustainability_Reporting_and_Compliance from "./Asserts_Sustainability_Reporting_and_Compliance";
 
 export default function I_RE_LifeCycle() {
@@ -20,7 +19,6 @@ export default function I_RE_LifeCycle() {
         <Asserts_After_Buy_Services />
         <Asserts_Sustainable_Supply_Chain />
         <Asserts_Flexible_Rental_and_Leasing_Options />
-        <Asserts_Green_Certification_Support />
         <Asserts_Sustainability_Reporting_and_Compliance />
         {/*
         <Asserts_Operations />

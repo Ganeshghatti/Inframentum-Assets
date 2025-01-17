@@ -8,6 +8,7 @@ import Asserts_Operations from "./Asserts_Operations";
 import Asserts_Performance from "./Asserts_Performance";
 import Asserts_Planning from "./Asserts_Planning";
 import Asserts_Procurement from "./Asserts_Procruremt";
+import Asserts_Green_Certification_Support from "./Asserts_Green_Certification_Support";
 import Cost_Effective from "./Cost_Effective";
 import Cost from "./Cost_Effective/cost";
 import Platform_Providers from "./Platform_Providers";
@@ -41,6 +42,7 @@ export default function I_RE_LifeCycle() {
         <Asserts_End_of_Life_Management />
         <Asserts_Digital_Twin_Technology />
         <Asserts_Blockchain_for_Asset_Management />
+        <Asserts_Green_Certification_Support />
         {/* <Cost_Effective /> */}
         <Cost />
       </div>

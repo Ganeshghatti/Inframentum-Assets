@@ -6,7 +6,10 @@ const marqueeTags = [
     tag: "Green PPAs",
   },
   {
-    tag: "I-RECs",
+    tag: "REALCM",
+  },
+  {
+    tag: "RENTALFIRST",
   },
   {
     tag: "Project Finance",

@@ -5,7 +5,7 @@ export default function Platform_Providers() {
     <div className="grid grid-cols-1 md:grid-cols-3 gap-4 bg-[#cef5fc] rounded-3xl px-6 py-8 text-black">
       <div className="col-span-1 md:col-span-2 flex items-center">
         <ol className=" list-decimal list-inside max-md:text-xl md:text-4xl font-semibold capitalize">
-          I-RentalFirst provides
+          RentalFirst provides
           <div className="text-base font-normal space-y-4 mt-4 max-md:text-sm">
             <li>Energy-Efficient Fleet</li>
             <li>

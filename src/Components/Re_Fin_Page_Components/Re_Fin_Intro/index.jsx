@@ -9,7 +9,7 @@ export default function ReFinIntro() {
     <div className="space-y-5 md:space-y-10 max-md:order-2">
       <div className="space-y-3">
         <h1 className="max-md:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold">
-          I-RE-Fin
+          RE-Fin
         </h1>
         <p className="max-md:text-sm md:text-lg font-medium lg:text-[18px] bg-secondaryColor px-6 max-md:px-4 max-md:py-4 rounded-full text-bgShade ">
           Empowering Renewable Energy transition with Tailored Financial

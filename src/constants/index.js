@@ -119,15 +119,15 @@ const company = [
   },
   {
     href: "/I_RE_ALCM_Services",
-    name: "I-Re-Alcm",
+    name: "ReAlcm",
   },
   {
     href: "/I_RENTAL_Services",
-    name: "I-Rental First",
+    name: "RentalFirst",
   },
   {
     href: "/I_RE_FIN_Services",
-    name: "I-Re-Fin",
+    name: "ReFin",
   },
   {
     href: "/calculator",
