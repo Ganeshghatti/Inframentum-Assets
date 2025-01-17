@@ -19,8 +19,8 @@ export default function OurPartner_4() {
           <h1 className="text-3xl font-semibold">BillionTech</h1>
         </div>
         <div>
-          <p className="max-md:text-sm lg:text-[18px]">
-            BillionTech offers a platform for cooperates to digitize
+          <p className="max-md:text-sm">
+            BillionTech offers a platform for corporates to digitize
             transactions, manage trade interactions, and optimize cash
             management, with embedded payment, collection, and credit solutions
             across the supply chain. Partnering with Inframentum<sup>TM</sup>,

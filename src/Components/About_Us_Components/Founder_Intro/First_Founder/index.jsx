@@ -36,14 +36,6 @@ export default function First_Founder() {
                 <img src={Star_Icon} alt="Star" />
               </span>
               <span className="w-[90%]">
-                Director in Fintech Company based in Bangalore
-              </span>
-            </li>
-            <li className="flex items-start w-full gap-2">
-              <span className="w-[5%]">
-                <img src={Star_Icon} alt="Star" />
-              </span>
-              <span className="w-[90%]">
                 Strategic Advisor for a NBFC focusing on Supplier and Channel
                 Financing solutions [Sept 2019 onwards]
               </span>
