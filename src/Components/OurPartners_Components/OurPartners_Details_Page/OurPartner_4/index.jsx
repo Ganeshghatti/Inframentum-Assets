@@ -20,7 +20,7 @@ export default function OurPartner_4() {
         </div>
         <div>
           <p className="max-md:text-sm">
-            BillionTech offers a platform for cooperates to digitize
+            BillionTech offers a platform for corporates to digitize
             transactions, manage trade interactions, and optimize cash
             management, with embedded payment, collection, and credit solutions
             across the supply chain. Partnering with Inframentum<sup>TM</sup>,
