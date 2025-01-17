@@ -24,6 +24,7 @@ import { FaUserAlt, FaPhone } from "react-icons/fa";
 import { MdEmail, MdMessage } from "react-icons/md";
 import { FaBuilding, FaBuildingUser } from "react-icons/fa6";
 import { ImProfile } from "react-icons/im";
+import { IoClose } from "react-icons/io5";
 
 // REACT EMAIL JS
 import emailjs from "@emailjs/browser";
@@ -131,7 +132,15 @@ export default function ContactForm() {
   };
 
   return (
-    <div className="w-[95vw] md:w-[85vw]  mx-auto border overflow-auto scroll-smooth border-border_Color_1 rounded-xl space-y-5  bg-white z-20 max-md:py-2 py-10 px-5 ">
+    <div className="w-[95vw] md:w-[85vw] relative mx-auto border overflow-auto scroll-smooth border-border_Color_1 rounded-xl space-y-5 bg-white z-20 max-md:py-1 py-5 px-5">
+      {/* Close button */}
+      <button
+        onClick={() => navigation(-1)}
+        className="absolute right-4 top-4 p-2 hover:bg-gray-100 rounded-full transition-colors"
+      >
+        <IoClose size={24} className="text-gray-600" />
+      </button>
+
       <div>
         <h1 className="font-semibold text-3xl uppercase text-center text-slate-950">
           Contact Us

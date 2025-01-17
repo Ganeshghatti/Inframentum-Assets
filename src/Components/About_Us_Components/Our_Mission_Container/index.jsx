@@ -5,31 +5,30 @@ export default function Our_Mission_Container() {
       <div className="col-span-2  max-md:flex-col flex items-center justify-center gap-4 px-5 py-4 space-y-6">
         <div className="w-[50%] flex items-center justify-center max-md:text-4xl text-5xl font-semibold">
           <h1 className="flex items-center gap-2">
-            <span>Our</span>
-            <span className="text-secondaryColor">Mission</span>
+            <span className="text-secondaryColor">Our</span>
+            <span className="text-black">Mission</span>
           </h1>
         </div>
         <div className="md:w-[80%] w-full">
-          <p className="max-md:text-justify">
+          <p className="max-md:text-justify lg:text-[18px]">
             To empower the transition to sustainable energy by delivering
             innovative, data-driven asset life cycle management solutions. We
             are committed to optimizing the performance, reliability, and
             longevity of renewable energy assets, enabling our clients to
             achieve their environmental and financial goals while contributing
-            to a cleaner, greener future for all
+            to a cleaner, greener future for all.
           </p>
         </div>
       </div>
       {/* -------------------------------------------------------------------- */}
       <div className="col-span-2 max-md:flex-col flex items-center justify-center gap-4 px-5 py-4 space-y-6">
-        <div className="md:w-[80%] w-full max-md:order-2 max-md:pb-5">
+        <div className="md:w-[80%] w-full max-md:order-2 max-md:pb-5 lg:text-[18px]">
           <p className="max-md:text-justify">
-            To empower the transition to sustainable energy by delivering
-            innovative, data-driven asset life cycle management solutions. We
-            are committed to optimizing the performance, reliability, and
-            longevity of renewable energy assets, enabling our clients to
-            achieve their environmental and financial goals while contributing
-            to a cleaner, greener future for all
+            To be among global leaders in renewable energy asset management,
+            enabling sustainable energy infrastructure through innovative and
+            affordable solutions. We envision a world where every renewable
+            energy asset operates at peak efficiency, contributing to a
+            resilient and sustainable energy future for generations to come.
           </p>
         </div>
         <div className="w-[50%] flex items-center justify-center max-md:text-4xl text-5xl font-semibold max-md:order-1 max-md:pb-5">

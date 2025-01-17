@@ -14,8 +14,8 @@ export default function Privacy_Policy() {
         {/* ---------------------------1.1----------------------------------- */}
         <div className="space-y-5">
           <h1 className="text-lg  text-secondaryColor">
-            1.1 WHY DOES Inframentum<sup>TM</sup>
-            ASSETS PVT LTD HAVE A PRIVACY POLICY?
+            1.1 WHY DOES Inframentum<sup>TM</sup>&nbsp; ASSETS PVT LTD HAVE A
+            PRIVACY POLICY?
           </h1>
           <p className="text-base text-slate-700">
             Inframentum<sup>TM</sup>
@@ -46,7 +46,7 @@ export default function Privacy_Policy() {
         {/* ----------------------------1.2---------------------------------- */}
         <div className="space-y-5">
           <h1 className="text-lg  text-secondaryColor">
-            1.2 DOES INFRAMENTU<sup>TM</sup> ASSETS EVER MAKE CHANGES TO ITS
+            1.2 DOES INFRAMENTUM<sup>TM</sup> ASSETS EVER MAKE CHANGES TO ITS
             PRIVACY POLICY?
           </h1>
           <p className="text-base text-slate-700">

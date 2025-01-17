@@ -10,7 +10,7 @@ export default function About_Us_Content() {
             <span>us</span>
           </h1>
         </div>
-        <div className="flex flex-col gap-5 space-y-8 px-4 lg:w-[80%] max-lg:w-full mx-auto">
+        <div className="flex flex-col gap-5 space-y-8 px-4 lg:w-[80%] max-lg:w-full mx-auto lg:text-[18px]  ">
           <p className="">
             Inframentum<sup>TM</sup> is a Company focused on Asset Life Cycle
             Management for Renewable Energy, Water and sustainable
@@ -35,7 +35,7 @@ export default function About_Us_Content() {
         <div className="w-full">
           <img src={aboutImg} alt="About Us Image" className="w-full" />
         </div>
-        <div className="flex flex-col gap-5 space-y-8 px-4 lg:w-[80%] max-lg:w-full mx-auto">
+        <div className="flex flex-col gap-5 space-y-8 px-4 lg:w-[80%] max-lg:w-full mx-auto lg:text-[18px]  ">
           <ul
             className="list-inside font-semibold"
             style={{ listStyleType: "square" }}

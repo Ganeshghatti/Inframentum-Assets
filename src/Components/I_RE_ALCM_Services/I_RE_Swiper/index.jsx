@@ -14,8 +14,11 @@ import { Button } from "@/Components/ui/button";
 
 // React Icons
 import { FaArrowRightLong } from "react-icons/fa6";
+import { useNavigate } from "react-router-dom"; // Import useNavigate
 
 export default function I_Re_ALCM_Slides() {
+  const navigate = useNavigate(); // Initialize navigate
+
   return (
     <div className="relative">
       <Swiper
@@ -54,7 +57,10 @@ export default function I_Re_ALCM_Slides() {
           </p>
         </div>
         <div>
-          <Button className="bg-secondaryColor hover:bg-secondaryColor_hover/70 px-5 py-4 rounded-full text-white transition-all duration-300 ease-linear flex items-center justify-center gap-2 group">
+          <Button
+            className="bg-secondaryColor hover:bg-secondaryColor_hover/70 px-5 py-4 rounded-full text-white transition-all duration-300 ease-linear flex items-center justify-center gap-2 group"
+            onClick={() => navigate("/contact")} // Navigate to contact
+          >
             <span>Get Started Free</span>
             <span>
               <FaArrowRightLong

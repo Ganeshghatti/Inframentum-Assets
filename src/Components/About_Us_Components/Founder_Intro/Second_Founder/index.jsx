@@ -3,7 +3,7 @@ import circle from "../../../../assets/images/circle.png";
 
 export default function Second_Founder() {
   return (
-    <div className="grid grid-cols-4 gap-2  w-full md:px-2 md:py-2">
+    <div className="grid grid-cols-4 gap-2  w-full md:px-2 md:py-2 ">
       <div className="col-span-1 max-md:col-span-4  md:h-[30%] lg:h-[40%] xl:h-[50%] max-md:order-1 mx-auto">
         <img
           src={Founder_Image}
@@ -14,22 +14,24 @@ export default function Second_Founder() {
           <span className="max-lg:text-sm text-2xl font-semibold">
             Ananth lyer
           </span>
-          <span className="max-lg:text-xs text-sm font-normal">
-            Co-Founder and Director
+          <span className="max-lg:text-xs text-sm font-medium">
+            (Co-Founder and Director)
           </span>
+
+          <span className="w-[90%]">BE in Chemical Engineering</span>
         </div>
       </div>
-      <div className="col-span-3 max-md:col-span-4  h-auto max-md:order-2 max-md:mt-20">
-        <h1 className="space-y-4 max-md:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-semibold">
+      <div className="col-span-3 max-md:col-span-4  h-auto max-md:order-2 lg:ml-6 max-md:mt-20">
+        <h1 className="space-y-4 max-md:text-2xl md:text-3xl lg:text-4xl xl:text-4xl  font-semibold lg:text-[18px]">
           Entrepreneur since the last 26 years, spread across geographies both
           in India and abroad and across products and services predominantly in
-          the Construction Equipment, Earthmoving & Mining segments.
+          the Construction Equipment, Earthmoving & Mining segments:
         </h1>
 
         {/* -----------------Other Assignments----------------- */}
         <ul className="space-y-8 my-4 text-3xl max-lg:text-2xl font-semibold mt-14 relative">
-          Other Assignments
-          <div className="space-y-4 text-sm font-normal pt-4 max-lg:ml-0 ml-8 mt-2">
+          Other Roles
+          <div className="space-y-4 text-sm font-normal pt-4 max-lg:ml-0 ml-8 mt-2 lg:text-[18px]">
             <li className="flex items-start w-full gap-2">
               <span className="w-[5%]">
                 <img src={circle} alt="Circle" />
@@ -76,12 +78,6 @@ export default function Second_Founder() {
                 across segments including large Corporate clients like L&T, Tata
                 Projects, JSW etc.,
               </span>
-            </li>
-            <li className="flex items-start w-full gap-2">
-              <span className="w-[5%]">
-                <img src={circle} alt="Circle" />
-              </span>
-              <span className="w-[90%]">BE in Chemical Engineering</span>
             </li>
           </div>
         </ul>

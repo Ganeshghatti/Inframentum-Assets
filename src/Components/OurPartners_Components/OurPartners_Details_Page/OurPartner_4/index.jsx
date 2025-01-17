@@ -6,7 +6,7 @@ import { FaArrowRightLong } from "react-icons/fa6";
 
 export default function OurPartner_4() {
   return (
-    <div className="bg-darkBg text-white rounded-3xl px-1 md:px-10 py-5 md:py-10 flex max-md:flex-col flex-row items-center justify-between">
+    <div className="bg-[#fde8d0] text-black rounded-3xl px-1 md:px-10 py-5 md:py-10 flex max-md:flex-col flex-row items-center justify-between">
       <div className="md:w-[30%] max-md:order-1">
         <img
           src={p_logo_1}
@@ -31,13 +31,19 @@ export default function OurPartner_4() {
         </div>
         <div>
           <Button className="flex items-center gap-2 group bg-secondaryColor_hover hover:bg-secondaryColor/50 transition-all duration-300 ease-linear rounded-full px-5 py-2">
-            <span>Learn More</span>
-            <span>
-              <FaArrowRightLong
-                size={20}
-                className="group-hover:translate-x-1 transition-all duration-300 ease-linear"
-              />
-            </span>
+            <a
+              href="https://www.billiontech.in/"
+              target="_blank"
+              className="flex items-center gap-2"
+            >
+              <span>Learn More</span>
+              <span>
+                <FaArrowRightLong
+                  size={20}
+                  className="group-hover:translate-x-1 transition-all duration-300 ease-linear"
+                />
+              </span>
+            </a>
           </Button>
         </div>
       </div>

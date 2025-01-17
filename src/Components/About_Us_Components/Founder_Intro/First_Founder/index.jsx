@@ -6,10 +6,10 @@ export default function First_Founder() {
   return (
     <div className="grid grid-cols-4 gap-2  w-full md:px-2 md:py-2">
       <div className="col-span-3 max-md:col-span-4  h-auto max-md:order-2 max-md:mt-20">
-        <ul className="space-y-4 max-md:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-semibold">
+        <ul className="space-y-4 max-md:text-2xl md:text-3xl lg:text-4xl xl:text-4xl font-semibold">
           Banking and Financial Services & Strategy Consulting Professional with
-          38 years experience covering.
-          <div className="space-y-2 text-base max-lg:text-sm font-normal pt-4 max-lg:ml-0 ml-8">
+          38 years experience covering:
+          <div className="space-y-2 text-base max-lg:text-sm font-normal pt-4 max-lg:ml-0 ml-0 mt-5 lg:text-[18px]">
             <li>Lending business across segments (CE, CV, WC, Infra, MFI)</li>
             <li>Leasing of Plant & Machinery</li>
             <li>Fixed Income Securities and Merchant Banking</li>
@@ -20,8 +20,8 @@ export default function First_Founder() {
 
         {/* -----------------Other Assignments----------------- */}
         <ul className="space-y-4 text-3xl max-lg:text-2xl font-semibold mt-14">
-          Other Assignments
-          <div className="space-y-4 text-sm font-normal pt-4 max-lg:ml-0 ml-8">
+          Other Roles
+          <div className="space-y-4 text-sm font-normal pt-4 max-lg:ml-0 ml-8 lg:text-[18px]">
             <li className="flex items-start w-full gap-2">
               <span className="w-[5%]">
                 <img src={Star_Icon} alt="Star" />
@@ -54,8 +54,8 @@ export default function First_Founder() {
         </ul>
         {/* -----------------Other Assignments----------------- */}
         <ul className="space-y-8 my-4 text-3xl max-lg:text-2xl font-semibold mt-14 relative">
-          Past Assignments
-          <div className="space-y-4 text-sm font-normal pt-4 max-lg:ml-0 ml-8 mt-2">
+          Past Experience
+          <div className="space-y-4 text-sm font-normal pt-4 max-lg:ml-0 ml-8 mt-2 lg:text-[18px]">
             <li className="flex items-start w-full gap-2">
               <span className="w-[5%]">
                 <img src={circle} alt="Circle" />
@@ -71,15 +71,6 @@ export default function First_Founder() {
               </span>
               <span className="w-[90%]">Director & CFO of NBFC-MFI</span>
             </li>
-            <li className="flex items-start w-full gap-2">
-              <span className="w-[5%]">
-                <img src={circle} alt="Circle" />
-              </span>
-              <span className="w-[90%]">
-                Alumni of IIM Bangalore with Executive MBA and Post Graduate
-                Diploma in Financial Management and Post Graduate in Commerce
-              </span>
-            </li>
           </div>
         </ul>
       </div>
@@ -93,9 +84,13 @@ export default function First_Founder() {
           <span className="max-lg:text-sm text-2xl font-semibold">
             Ramakrishnan Venkateswaran
           </span>
-          <span className="max-lg:text-xs text-sm font-normal">
-            Founder and CEO
+          <span className="max-lg:text-xs text-sm font-medium">
+            (Founder and CEO)
           </span>
+          <p className="text-base">
+            Alumni of IIM Bangalore with Executive MBA and Post Graduate Diploma
+            in Financial Management and Post Graduate in Commerce.
+          </p>
         </div>
       </div>
     </div>

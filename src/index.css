@@ -64,7 +64,8 @@
 @layer base {
   * {
     @apply border-border scroll-smooth transition-all duration-300;
-    font-family: "Sora", sans-serif;
+    /* font-family: "Sora", sans-serif; */
+    font-family: "Poppins", sans-serif;
   }
   body {
     @apply bg-background text-foreground;
