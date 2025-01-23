@@ -7,7 +7,7 @@ import { FaArrowRightLong } from "react-icons/fa6";
 export default function OurPartner_5() {
   return (
     <div className="bg-[#cef5fc] text-black rounded-3xl px-1 md:px-10 py-5 md:py-10 flex max-md:flex-col flex-row items-center justify-between">
-      <div className="space-y-10  md:w-[70%] px-4">
+      <div className="space-y-6  md:w-[70%] px-4">
         <div>
           <h1 className="text-3xl font-semibold">Ecovate Tech LLP</h1>
         </div>

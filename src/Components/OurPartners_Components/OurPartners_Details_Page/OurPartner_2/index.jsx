@@ -15,7 +15,7 @@ export default function OurPartner_2() {
           className="max-md:w-[150px] max-md:h-[150px] md:w-[250px] md:h-[250px] object-contain 2xl:mr-48"
         />
       </div>
-      <div className="space-y-10  md:w-[70%] px-4">
+      <div className="space-y-6  md:w-[70%] px-4">
         <div>
           <h1 className="text-3xl font-semibold">F.A. Infra & Renewable</h1>
         </div>
