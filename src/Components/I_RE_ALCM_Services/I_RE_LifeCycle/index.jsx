@@ -17,13 +17,6 @@ import Solution from "./Solution";
 export default function I_RE_LifeCycle() {
   return (
     <div className="w-[95%] mx-auto space-y-10">
-      <div className="flex justify-center">
-        <img
-          src="path/to/your/image.jpg"
-          alt="Description"
-          className="max-w-full h-auto"
-        />
-      </div>
 
       <div className="bg-secondaryColor rounded-2xl p-4">
         <h1 className=" text-center max-md:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-semibold text-bgShade">

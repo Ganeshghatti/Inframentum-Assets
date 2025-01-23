@@ -12,9 +12,7 @@ export default function About_Us_Content() {
         </div>
         <div className="flex flex-col gap-5 space-y-8 px-4 lg:w-[80%] max-lg:w-full mx-auto lg:text-[18px]  ">
           <p className="">
-            Inframentum<sup>TM</sup> is a Company focused on Asset Life Cycle
-            Management for Renewable Energy, Water and sustainable
-            Infrastructure assets
+            Inframentum<sup>TM</sup> exists to create momentum in the clean energy revolution. From powering businesses with renewable energy assets to providing flexible financing and rental solutions, we enable sustainable infrastructure development at every stage. With a focus on lifecycle management, our platform empowers companies and investors to align profitability with purpose
           </p>
           <ul
             className="list-inside font-semibold"

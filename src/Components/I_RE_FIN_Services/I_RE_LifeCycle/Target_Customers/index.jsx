@@ -9,7 +9,7 @@ export default function Target_Customer() {
       <div className="grid grid-cols-2 pt-6 gap-6 max-lg:gap-10">
         <div className="col-span-1 max-lg:col-span-2 flex items-center justify-center">
           <ul className="font-semibold max-md:text-xl  md:text-2xl lg:text-3xl xl:text-4xl capitalize list-inside list-disc">
-            RE-ALCM
+            REALCM
             <div className="font-normal text-base text-start ml-4 pt-4 space-y-4">
               <li>Renewable Energy EPC companies</li>
               <li>Renewable Energy Consultants and Advisors</li>

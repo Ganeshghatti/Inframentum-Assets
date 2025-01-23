@@ -8,7 +8,7 @@ export default function RE_ALCM_Intro() {
     <div className="space-y-5 md:space-y-10 max-md:order-2">
       <div className="space-y-3">
         <h1 className="max-md:text-2xl  md:text-3xl lg:text-4xl xl:text-5xl font-bold">
-          RE-ALCM
+          REALCM
         </h1>
         <p className="text-[13px] md:text-sm  py-2 font-medium bg-secondaryColor lg:text-[18px] px-5 max-md:py-2 rounded-full text-bgShade">
           Comprehensive Lifecycle Management for Renewable Energy Assets

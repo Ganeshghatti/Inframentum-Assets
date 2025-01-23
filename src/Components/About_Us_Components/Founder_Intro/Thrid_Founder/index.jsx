@@ -6,7 +6,7 @@ export default function Third_Founder() {
   return (
     <div className="grid grid-cols-4 gap-2  w-full md:px-2 md:py-2">
       <div className="col-span-3 max-md:col-span-4  h-auto max-md:order-2 max-md:mt-20">
-        <h1 className="space-y-4 max-md:text-2xl md:text-3xl lg:text-4xl xl:text-4xl font-semibold lg:text-[18px]">
+        <h1 className="space-y-4 max-md:text-2xl md:text-3xl lg:text-3xl font-semibold">
           Entrepreneur with 33 Yrs. Of Experience in Renewable Energy Projects
           across Wind Power, Solar Power and Hydro Electricity:
         </h1>

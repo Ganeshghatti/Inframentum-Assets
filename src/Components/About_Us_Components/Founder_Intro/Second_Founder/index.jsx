@@ -22,7 +22,7 @@ export default function Second_Founder() {
         </div>
       </div>
       <div className="col-span-3 max-md:col-span-4  h-auto max-md:order-2 lg:ml-6 max-md:mt-20">
-        <h1 className="space-y-4 max-md:text-2xl md:text-3xl lg:text-4xl xl:text-4xl  font-semibold lg:text-[18px]">
+        <h1 className="space-y-4 max-md:text-2xl md:text-3xl lg:text-3xl font-semibold">
           Entrepreneur since the last 26 years, spread across geographies both
           in India and abroad and across products and services predominantly in
           the Construction Equipment, Earthmoving & Mining segments:
