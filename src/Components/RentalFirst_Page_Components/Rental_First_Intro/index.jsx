@@ -12,7 +12,7 @@ export default function Rental_First_Intro() {
     <div className="space-y-5 md:space-y-10 ">
       <div className="space-y-3">
         <h1 className="max-md:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold">
-          RENTAL FIRST
+          RENTALFIRST
         </h1>
         <p className="text-[13px] lg:text-[18px] md:text-lg font-medium bg-secondaryColor px-5 max-md:py-2 rounded-full text-bgShade">
           Flexible Rental Solutions for Sustainable Green Assets

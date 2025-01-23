@@ -3,6 +3,7 @@ import OurPartner_2 from "./OurPartner_2";
 import OurPartner_3 from "./OurPartner_3";
 import OurPartner_4 from "./OurPartner_4";
 import OurPartner_5 from "./OurPartner_5";
+import OurPartner_6 from "./OurPartner_6";
 
 export default function OurPartners_Details_Page() {
   return (
@@ -12,6 +13,7 @@ export default function OurPartners_Details_Page() {
       <OurPartner_3 />
       <OurPartner_4 />
       <OurPartner_5 />
+      <OurPartner_6 />
     </div>
   );
 }

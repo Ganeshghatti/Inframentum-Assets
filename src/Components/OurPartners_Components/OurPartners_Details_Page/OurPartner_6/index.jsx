@@ -1,12 +1,12 @@
 import { Button } from "@/Components/ui/button";
-import p_logo_1 from "../../../../assets/images/partners-2.png";
+import p_logo_1 from "../../../../assets/images/partner-6.png";
 
 // REACT ICON
 import { FaArrowRightLong } from "react-icons/fa6";
 
-export default function OurPartner_4() {
+export default function OurPartner_6() {
   return (
-    <div className="bg-[#fde8d0] text-black rounded-3xl px-1 md:px-10 py-5 md:py-10 flex max-md:flex-col flex-row items-center justify-between">
+    <div className="bg-gray-600 text-white rounded-3xl px-1 md:px-10 py-5 md:py-10 flex max-md:flex-col flex-row items-center justify-between">
       <div className="md:w-[30%] max-md:order-1">
         <img
           src={p_logo_1}
@@ -16,23 +16,17 @@ export default function OurPartner_4() {
       </div>
       <div className="space-y-6  md:w-[70%] px-4">
         <div>
-          <h1 className="text-3xl font-semibold">BillionTech</h1>
+          <h1 className="text-3xl font-semibold">Quark Marketing</h1>
         </div>
         <div>
           <p className="max-md:text-sm">
-            BillionTech offers a platform for corporates to digitize
-            transactions, manage trade interactions, and optimize cash
-            management, with embedded payment, collection, and credit solutions
-            across the supply chain. Partnering with Inframentum<sup>TM</sup>,
-            it provides tools for dealer/vendor management, cash management,
-            credit solutions, and sales visibility, integrating seamlessly with
-            banks and financial institutions.
+          Quark Marketing is a dynamic full-service digital marketing agency specializing in ad management, social media strategies, and creative content solutions. Based in Mumbai, Quark Marketing delivers tailored campaigns to drive engagement, brand awareness, and ROI for diverse industries. With a state-of-the-art studio, expert strategists, and a focus on innovation, Quark Marketing offers services ranging from aesthetic branding to performance-driven ad campaigns. Partnering with leading brands, Quark Marketing provides end-to-end solutions, ensuring businesses stay ahead in a competitive digital landscape.
           </p>
         </div>
         <div>
           <Button className="flex items-center gap-2 group bg-secondaryColor_hover hover:bg-secondaryColor/50 transition-all duration-300 ease-linear rounded-full px-5 py-2">
             <a
-              href="https://www.billiontech.in/"
+              href="https://quarkmarketing.in/"
               target="_blank"
               className="flex items-center gap-2"
             >
