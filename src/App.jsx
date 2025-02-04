@@ -22,37 +22,35 @@ import I_RE_FIN_Services from "./Components/I_RE_FIN_Services";
 
 export default function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Layout />}>
-          <Route
-            index
-            element={
-              <main className="space-y-14 md:space-y-16">
-                <Home />
-                <Partners />
-                <AboutUS />
-                <Marquee_Animation />
-                <Services />
-                <Re_Alcm />
-                <RentalFirst />
-                <ReFin />
-                <OurValueProposition />
-                <OurFuturePlan />
-                <OurTeam />
-              </main>
-            }
-          />
-          <Route path="/contact" element={<ContactUS />} />
-          <Route path="/privacy-policy" element={<Privacy_Policy />} />
-          <Route path="/our-partners" element={<OurPartners_Components />} />
-          <Route path="/about-us" element={<About_Us_Components />} />
-          <Route path="/calculator" element={<Calculator />} />
-          <Route path="/I_RE_ALCM_Services" element={<I_RE_ALCM_Services />} />
-          <Route path="/I_RENTAL_Services" element={<I_RENTAL_Services />} />
-          <Route path="/I_RE_FIN_Services" element={<I_RE_FIN_Services />} />
-        </Route>
-      </Routes>
-    </BrowserRouter>
+    <Routes>
+      <Route path="/" element={<Layout />}>
+        <Route
+          index
+          element={
+            <main className="space-y-14 md:space-y-16">
+              <Home />
+              <Partners />
+              <AboutUS />
+              <Marquee_Animation />
+              <Services />
+              <Re_Alcm />
+              <RentalFirst />
+              <ReFin />
+              <OurValueProposition />
+              <OurFuturePlan />
+              <OurTeam />
+            </main>
+          }
+        />
+        <Route path="/contact" element={<ContactUS />} />
+        <Route path="/privacy-policy" element={<Privacy_Policy />} />
+        <Route path="/our-partners" element={<OurPartners_Components />} />
+        <Route path="/about-us" element={<About_Us_Components />} />
+        <Route path="/calculator" element={<Calculator />} />
+        <Route path="/I_RE_ALCM_Services" element={<I_RE_ALCM_Services />} />
+        <Route path="/I_RENTAL_Services" element={<I_RENTAL_Services />} />
+        <Route path="/I_RE_FIN_Services" element={<I_RE_FIN_Services />} />
+      </Route>
+    </Routes>
   );
 }
