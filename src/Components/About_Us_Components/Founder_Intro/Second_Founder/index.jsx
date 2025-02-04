@@ -3,7 +3,7 @@ import circle from "../../../../assets/images/circle.png";
 
 export default function Second_Founder() {
   return (
-    <div className="grid grid-cols-4 gap-2  w-full md:px-2 md:py-2 ">
+    <div className="grid grid-cols-4 gap-2 max-md:gap-24 w-full md:px-2 md:py-2 ">
       <div className="col-span-1 max-md:col-span-4  md:h-[30%] lg:h-[40%] xl:h-[50%] max-md:order-1 mx-auto">
         <img
           src={Founder_Image}

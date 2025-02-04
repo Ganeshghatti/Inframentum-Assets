@@ -100,10 +100,10 @@ export default function ContactForm() {
     if (check) {
       emailjs
         .send(
-          import.meta.env.VITE_YOUR_SERVICE_ID,
-          import.meta.env.VITE_YOUR_TEMPLATE_ID,
+          "service_434rmoe",
+          "template_h8nodzv",
           values,
-          import.meta.env.VITE_YOUR_PUBLIC_KEY
+          "MmYkJTODghmYVV21f"
         )
         .then(
           () => {
