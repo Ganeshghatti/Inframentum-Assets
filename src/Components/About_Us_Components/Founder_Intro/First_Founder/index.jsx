@@ -4,7 +4,7 @@ import circle from "../../../../assets/images/circle.png";
 
 export default function First_Founder() {
   return (
-    <div className="grid grid-cols-4 gap-2  w-full md:px-2 md:py-2">
+    <div className="grid grid-cols-4 gap-2 max-md:gap-24 w-full md:px-2 md:py-2">
       <div className="col-span-3 max-md:col-span-4  h-auto max-md:order-2 max-md:mt-20">
         <ul className="font-semibold space-y-4 max-md:text-2xl md:text-3xl lg:text-3xl font-semibold">
           Banking and Financial Services & Strategy Consulting Professional with
