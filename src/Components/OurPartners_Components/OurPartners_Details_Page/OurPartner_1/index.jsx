@@ -6,13 +6,13 @@ import { FaArrowRightLong } from "react-icons/fa6";
 
 export default function OurPartner_1() {
   return (
-    <div className="bg-darkBg text-white rounded-3xl px-1 md:px-10 py-5 md:py-10 flex max-md:flex-col flex-row items-center justify-between">
+    <div className="bg-[#cef5fc] text-black rounded-3xl px-1 md:px-10 py-5 md:py-10 flex max-md:flex-col flex-row items-center justify-between">
       <div className="space-y-10  md:w-[70%] px-4">
         <div>
           <h1 className="text-3xl font-semibold">SYNE</h1>
         </div>
         <div>
-          <p className="max-md:text-sm">
+          <p className="max-md:text-sm lg:text-[18px]">
             SYNE is an enterprise SaaS platform enabling a structured approach
             to science-based, data-driven emissions measurement using the GHG
             Protocol and Climate Taxonomy. Powered by artificial intelligence,
@@ -36,7 +36,7 @@ export default function OurPartner_1() {
         <img
           src={p_logo_1}
           alt="p_logo_1"
-          className="max-md:w-[150px] max-md:h-[150px] md:w-[250px] md:h-[250px] object-contain 2xl:ml-48"
+          className="max-md:w-[150px] max-md:h-[150px] md:w-[250px] md:h-[250px] object-contain 2xl:ml-[100px]"
         />
       </div>
     </div>

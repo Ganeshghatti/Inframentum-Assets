@@ -6,7 +6,7 @@ import { FaArrowRightLong } from "react-icons/fa6";
 
 export default function OurPartner_4() {
   return (
-    <div className="bg-darkBg text-white rounded-3xl px-1 md:px-10 py-5 md:py-10 flex max-md:flex-col flex-row items-center justify-between">
+    <div className="bg-[#fde8d0] text-black rounded-3xl px-1 md:px-10 py-5 md:py-10 flex max-md:flex-col flex-row items-center justify-between">
       <div className="md:w-[30%] max-md:order-1">
         <img
           src={p_logo_1}
@@ -19,7 +19,7 @@ export default function OurPartner_4() {
           <h1 className="text-3xl font-semibold">BillionTech</h1>
         </div>
         <div>
-          <p className="max-md:text-sm">
+          <p className="max-md:text-sm lg:text-[18px]">
             BillionTech offers a platform for cooperates to digitize
             transactions, manage trade interactions, and optimize cash
             management, with embedded payment, collection, and credit solutions

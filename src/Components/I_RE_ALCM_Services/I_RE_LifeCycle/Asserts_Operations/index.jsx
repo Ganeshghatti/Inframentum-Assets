@@ -1,47 +1,48 @@
-import provider from "@/assets/images/provide_1.png";
+import provider from "@/assets/images/Rental/provide_5.png";
 
 export default function Asserts_Operations() {
   return (
-    <div className="grid grid-cols-3 gap-4 bg-darkBg rounded-3xl px-6 py-8 text-bgShade">
-      <div className="col-span-1 max-lg:col-span-3 max-lg:order-1 w-full flex items-center justify-center">
-        <img src={provider} alt="Image" className="w-full" />
-      </div>
-      <div className="col-span-2 max-lg:col-span-3 max-lg:order-2 flex items-center ">
-        <ul className="max-md:text-lg text-4xl font-semibold">
-          Operation and Maintenance (O&M)
-          <div className="font-normal text-base space-y-8 mt-6 max-md:text-sm">
-            <li>
-              <span className="text-secondaryColor font-semibold text-lg max-md:text-sm">
-                Predictive Maintenance :{" "}
-              </span>
-              <span className="font-normal text-base max-md:text-sm">
-                Implement AI-driven predictive maintenance to forecast potential
-                failures and optimize maintenance schedules, reducing downtime
-                and repair costs.
-              </span>
-            </li>
-            <li>
-              <span className="text-secondaryColor font-semibold text-lg max-md:text-sm">
-                Remote Monitoring Systems :{" "}
-              </span>
-              <span className="font-normal text-base max-md:text-sm">
-                Use IoT and SCADA systems for continuous, real-time monitoring
-                of asset performance, allowing for quick responses to any
-                operational issues.
-              </span>
-            </li>
-            <li>
-              <span className="text-secondaryColor font-semibold text-lg max-md:text-sm">
-                Energy Management Software :{" "}
-              </span>
-              <span className="font-normal text-base max-md:text-sm">
-                Integrate energy management systems to optimize the performance
-                of renewable energy assets, ensuring they generate the maximum
-                possible energy.
-              </span>
-            </li>
-          </div>
+    <div className="grid grid-cols-3 gap-4 bg-[#cef5fc] rounded-3xl px-6 py-8 text-black">
+      <div className="col-span-2 max-lg:col-span-3 max-lg:order-2">
+        <h2 className="max-md:text-xl md:text-4xl font-semibold mb-6">
+          Operations Management
+        </h2>
+        <ul className="space-y-6">
+          <li>
+            <h3 className="text-secondaryColor font-semibold mb-2  ">
+              Performance Monitoring:
+            </h3>
+            <p className="max-md:text-sm  ">
+              Deploy real-time monitoring systems to track asset performance,
+              energy production, and system health.
+            </p>
+          </li>
+          <li>
+            <h3 className="text-secondaryColor font-semibold mb-2  ">
+              Maintenance Planning:
+            </h3>
+            <p className="  max-md:text-sm">
+              Schedule and track preventive maintenance activities to optimize
+              asset performance and longevity.
+            </p>
+          </li>
+          <li>
+            <h3 className="text-secondaryColor font-semibold mb-2  ">
+              Resource Management:
+            </h3>
+            <p className="  max-md:text-sm  ">
+              Manage inventory, spare parts, and maintenance resources
+              efficiently.
+            </p>
+          </li>
         </ul>
+      </div>
+      <div className="col-span-1 max-lg:col-span-3 max-lg:order-1 w-full flex items-center justify-center">
+        <img
+          src={provider}
+          alt="Image"
+          className="lg:w-[33pc] lg:h-[350px] rounded-[25px]"
+        />
       </div>
     </div>
   );

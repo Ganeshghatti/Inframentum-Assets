@@ -1,8 +1,8 @@
-import provider from "@/assets/images/provide_1.png";
+import provider from "@/assets/images/Fin/provide_8.png";
 
 export default function Green_Bonds_and_Sustainability_Linked_Financing() {
   return (
-    <div className="grid grid-cols-3 gap-4 bg-darkBg rounded-3xl px-6 py-8 text-bgShade">
+    <div className="grid grid-cols-3 gap-4 bg-[#fde8d0] rounded-3xl px-6 py-8 text-black">
       <div className="col-span-2 max-lg:col-span-3 max-lg:order-2 flex items-center ">
         <ul className="max-md:text-xl text-4xl font-semibold">
           Green Bonds and Sustainability-Linked Financing
@@ -41,7 +41,11 @@ export default function Green_Bonds_and_Sustainability_Linked_Financing() {
         </ul>
       </div>
       <div className="col-span-1 max-lg:col-span-3 max-lg:order-1 w-full flex items-center justify-center">
-        <img src={provider} alt="Image" className="w-full" />
+        <img
+          src={provider}
+          alt="Image"
+          className="lg:w-[33pc] lg:h-[350px] rounded-[25px]"
+        />
       </div>
     </div>
   );

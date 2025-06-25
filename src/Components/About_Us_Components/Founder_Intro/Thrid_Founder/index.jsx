@@ -6,7 +6,7 @@ export default function Third_Founder() {
   return (
     <div className="grid grid-cols-4 gap-2  w-full md:px-2 md:py-2">
       <div className="col-span-3 max-md:col-span-4  h-auto max-md:order-2 max-md:mt-20">
-        <h1 className="space-y-4 max-md:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-semibold">
+        <h1 className="space-y-4 max-md:text-2xl md:text-3xl lg:text-4xl xl:text-4xl font-semibold lg:text-[18px]">
           Entrepreneur with 33 Yrs. Of Experience in Renewable Energy Projects
           across Wind Power, Solar Power and Hydro Electricity
         </h1>
@@ -14,7 +14,7 @@ export default function Third_Founder() {
         {/* -----------------Other Assignments----------------- */}
         <ul className="space-y-4 text-3xl max-lg:text-2xl font-semibold mt-14">
           Other Assignments
-          <div className="space-y-4 text-sm font-normal pt-4 max-lg:ml-0 ml-8">
+          <div className="space-y-4 text-sm font-normal pt-4 max-lg:ml-0 ml-8 lg:text-[18px]">
             <li className="flex items-start w-full gap-2">
               <span className="w-[5%]">
                 <img src={Star_Icon} alt="Star" />
@@ -47,7 +47,7 @@ export default function Third_Founder() {
         {/* -----------------Other Assignments----------------- */}
         <ul className="space-y-8 my-4 text-3xl max-lg:text-2xl font-semibold mt-14 relative">
           Past Assignments
-          <div className="space-y-4 text-sm font-normal pt-4 max-lg:ml-0 ml-8 mt-2">
+          <div className="space-y-4 text-sm font-normal pt-4 max-lg:ml-0 ml-8 mt-2 lg:text-[18px]">
             <li className="flex items-start w-full gap-2">
               <span className="w-[5%]">
                 <img src={circle} alt="Circle" />
