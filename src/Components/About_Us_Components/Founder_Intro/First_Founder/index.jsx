@@ -95,7 +95,7 @@ export default function First_Founder() {
         <img
           src={Founder_Image}
           alt="Founder"
-          className="w-[100%] h-[100%] object-contain"
+          className="w-[100%] h-[80%] object-contain"
         />
         <div className="flex flex-col items-center justify-center text-center gap-4 mt-2">
           <span className="max-lg:text-sm text-2xl font-semibold">
