@@ -105,10 +105,11 @@ export default function Footer2() {
                 </h1>
                 <div className="text-xs lg:text-[14px] text-gray-600 pl-0 leading-5">
                   <p>
-                    Registered Office: Varun Developers, <br />
-                    Commercial 1B, 2nd floor, off-203 near,
-                    <br /> Lawkim Industries, Plot No. 48/2,
-                    <br /> Thane: 400607, Maharashtra, India
+                    Registered Office: Regus at Rurabi Ventures <br />
+                    Private Limited, No 11, Global Tech Park,
+                    <br /> O Shaughnessy Rd, Langford Town,
+                    <br /> Langford Gardens, Richmond Town,
+                    <br /> Bangalore, Karnataka, India, 560025
                   </p>
                   <br />
                   <div className="lg:text-[12px]">
